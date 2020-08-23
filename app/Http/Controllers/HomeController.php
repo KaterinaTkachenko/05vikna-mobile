@@ -70,17 +70,7 @@ class HomeController extends Controller
     public function kontakty()
     {
         return view('kontakty.kontakty');
-    }
-    
-    public function zaporozhye()
-    {
-        return view('kontakty.zaporozhye');
-    }   
-
-    public function dnepr()
-    {
-        return view('kontakty.dnepr');
-    }
+    }    
 
     public function plastikovyyeokna()
     {

@@ -56,11 +56,7 @@
                     <li><a href="{{route('nashi-raboty')}}" class="header__menu__item">Наши работы</a></li>
                     <li><a href="{{route('aktsii-i-skidki')}}" class="header__menu__item">Акции</a></li>
                     <li>
-                        <a href="{{route('kontakty')}}" class="header__menu__item">Контакты</a>
-                        <ul class="dropdown-content">
-                            <li><a href="{{route('zaporozhye')}}" class="dropdown-item">Запорожье</a></li>
-                            <li><a href="{{route('dnepr')}}" class="dropdown-item">Днепр</a></li>
-                        </ul>                
+                        <a href="{{route('kontakty')}}" class="header__menu__item">Контакты</a>                                       
                     </li>
                 </ul>
             </div>

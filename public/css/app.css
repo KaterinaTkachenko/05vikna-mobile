@@ -14639,6 +14639,16 @@ h4.dveri__flex2__title:hover {
   flex: auto;
 }
 
+.stati__item img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.statiInfo .about__content img {
+  width: 100% !important;
+  height: auto !important;
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;

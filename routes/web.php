@@ -21,7 +21,8 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/o-nas', 'HomeController@about')->name('about');
 Route::get('/sertifikaty', 'HomeController@sertifikaty')->name('sertifikaty');
-Route::get('/stati', 'HomeController@stati')->name('stati');
+Route::get('/stati', 'ArticleController@getArticles')->name('stati');
+Route::get('/stati/{slug}', 'ArticleController@getArticleInfo')->name('articleInfo');
 Route::get('/otzyvy', 'HomeController@otzyvy')->name('otzyvy');
 
 Route::get('/nashi-tseny', 'HomeController@nashitseny')->name('nashi-tseny');
@@ -32,8 +33,6 @@ Route::get('/aktsii-i-skidki', 'HomeController@aktsii')->name('aktsii-i-skidki')
 
 Route::group(['prefix' => 'kontakty'], function () {
 	Route::get('/', 'HomeController@kontakty')->name('kontakty');
-	Route::get('zaporozhye', 'HomeController@zaporozhye')->name('zaporozhye');
-	Route::get('dnepr', 'HomeController@dnepr')->name('dnepr');
 });
 
 Route::group(['prefix' => 'plastikovyye-okna'], function () {

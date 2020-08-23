@@ -30,13 +30,8 @@
             <li><a href="{{route('aktsii-i-skidki')}}">Акции </a></li>
             <li>
                 <div class="d-flex justify-content-between">
-                    <a href="{{route('kontakty')}}">Контакты </a>
-                    <i class="fa fa-chevron-down"></i>
-                </div>
-                <ul class="dropdown-content hidden">
-                    <li><a href="{{route('zaporozhye')}}" class="dropdown-item">Запорожье</a></li>
-                    <li><a href="{{route('dnepr')}}" class="dropdown-item">Днепр</a></li>
-                </ul>               
+                    <a href="{{route('kontakty')}}">Контакты </a>                   
+                </div>                           
             </li>
             <li>
                 <div class="d-flex justify-content-between">

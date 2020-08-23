@@ -9,3 +9,13 @@
 .stati__flex1{
     flex: auto;
 }
+
+.stati__item img{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.statiInfo .about__content img{
+    width: 100% !important;
+    height: auto !important;
+}

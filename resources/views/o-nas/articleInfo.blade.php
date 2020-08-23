@@ -1,9 +1,9 @@
 @extends('layouts.main-layout')
 @section('main')
-<div class="container stati">
+<div class="container statiInfo">
     <div class="row">
         <div class="col-12">
-            <h1 style="margin: 40px 0">Статьи</h1>
+            <h1 style="margin: 40px 0">{{$article->name}}</h1>
         </div>
         <div class="col-lg-2 d-none d-lg-block">
             <ul class="about__hrefs">
@@ -14,24 +14,16 @@
                     <a href="{{route('stati')}}">Сертификаты</a>
                 </li>
                 <li>
+                    <a href="{{route('stati')}}">Статьи</a>
+                </li>
+                <li>
                     <a href="{{route('otzyvy')}}">Отзывы</a>
                 </li>
             </ul>
         </div>
         <div class="col-lg-10 col-md-12 col-sm-12 col-12 about__content mb-5">
-            <div class="stati__flex1 d-flex flex-wrap justify-content-around">
-                @foreach($articles as $article)
-                    <div class="stati__item shadowBox mb-5">
-                    <a href="{{route('articleInfo', $article->slug)}}"><img src="{{$article->img}}" alt="{{$article->name}}"></a>
-                        <div class="stati__item__desc p-4">
-                            <a href="{{route('articleInfo', $article->slug)}}">
-                                <div class="stati__item__date">{{Carbon\Carbon::parse($article->date)->format('d.m.Y')}}</div>
-                                <h3>{{$article->name}}</h3>
-                            </a>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
+            <p style="color: grey">{{Carbon\Carbon::parse($article->date)->format('d.m.Y')}}</p>
+            <p>{!!$article->fullDesc!!}</p>
         </div>
     </div>
 </div>
