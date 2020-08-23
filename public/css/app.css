@@ -11559,6 +11559,14 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .about__content::before {
+    border-left: 0 !important;
+  }
+
+  .about__content {
+    padding: 0px 15px !important;
+  }
+
   .garantiya__flex1 > div {
     width: 100% !important;
   }
@@ -14571,6 +14579,52 @@ h4.dveri__flex2__title:hover {
 
 .garant__info p {
   font-size: 16px;
+}
+
+.about__facts h3 {
+  display: inline;
+}
+
+.about__table tbody tr:nth-of-type(odd),
+.about__table > tr:nth-of-type(odd) {
+  background: #f0f0f0;
+}
+
+.about__table td {
+  padding: 16px 12px;
+  vertical-align: top;
+}
+
+.about__table td,
+.about__table th {
+  padding: 10px 12px;
+}
+
+.about__table {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.about__hrefs li {
+  padding: 5px 0;
+  color: grey;
+}
+
+.about__hrefs li a:hover {
+  color: #000;
+}
+
+.about__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-left: 1px solid #ccc;
+}
+
+.about__content {
+  padding: 0px 50px;
 }
 
 body {
