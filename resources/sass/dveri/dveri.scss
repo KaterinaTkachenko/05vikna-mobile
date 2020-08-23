@@ -1,0 +1,94 @@
+/* #region  dveri__flex1 */
+.dveri__flex1, .dveri__flex2, .dveri__flex3{
+    margin: 50px 0 40px;
+}
+
+.dveri__flex1 img{
+    width: auto;
+}
+
+.dveri__flex1 > div{
+    text-align: center;
+    width: 200px;
+}
+
+.dveri__flex1 > div p{
+    text-align: center;
+}
+/* #endregion */
+
+/* #region .dveri__flex2 */
+.dveri__flex2 > div{
+    width: 300px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.dveri__flex2__price {
+    color: #fe8a18;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dveri__flex2 img{
+    width: auto !important;
+    margin-bottom: 20px;    
+}
+
+h4.dveri__flex2__title:hover{
+    color: $orangeColor;
+}
+
+.dveri__flex2 .btn-main{
+    padding: 10px;
+    display: block;
+    margin: 20px 30px 0;
+    background: $orangeColor;
+    color: #fff;
+}
+
+.dveri__flex2 .btn-main:hover{
+    background: $hoverBtnColor;
+    border: 2px solid $hoverBtnColor;
+}
+
+.dveri__flex2 > div p{
+    margin-bottom: 20px;
+}
+
+/* #endregion */
+
+/* #region .dveri__flex3 */
+.dveri__flex3 > div{
+    padding: 20px 40px;
+    align-self: center;
+}
+
+.dveri__flex3__item1{
+    width: 40%;   
+}
+
+.dveri__flex3__item2{
+    width: 60%;
+}
+
+.dveri__flex3 ul > li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.dveri__flex3 ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FF802C;
+}
+
+
+/* #endregion */

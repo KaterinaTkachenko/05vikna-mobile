@@ -1,0 +1,67 @@
+.vhod__dveri__flex1{
+    padding: 20px 0;
+}
+.vhod__dveri__flex1 .dveri__flex1__item1 {
+    width: 250px;
+}
+
+.vhod__dveri__flex1 .dveri__flex1__item2 {
+    width: 700px;
+    align-self: center;
+}
+
+.dveri__flex1__item2 .btn-main{
+    width: 30%;
+}
+
+.carousel-control-prev-icon {
+    background: url('../../images/arrprev-orange.png') 50% 50% no-repeat !important;
+}
+   
+.carousel-control-next-icon {
+    background: url('../../images/arrnext-orange.png') 50% 50% no-repeat !important;
+}
+
+.carousel-control-prev {
+    left: -40px;
+}
+
+.carousel-control-next {
+    right: -40px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+}
+
+.vhodnye__dveri__flex2{
+    margin-bottom: 30px;
+}
+
+.vhodnye__dveri__flex2 > div{
+    width: 200px;
+}
+
+.vhod__dveri ul > li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.vhod__dveri ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FF802C;
+}
+
+.vhod__dveri__price{
+    margin: 0;
+    align-self: center;
+    margin-right: 40px;
+}

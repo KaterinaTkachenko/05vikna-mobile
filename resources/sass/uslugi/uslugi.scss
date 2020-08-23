@@ -1,0 +1,72 @@
+.uslugi ul > li, .vyzov_zamer ul > li, .ustanovka ul > li, .dostavka ul > li{
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.uslugi ul > li::before, .vyzov_zamer ul > li::before
+, .ustanovka ul > li::before, .dostavka ul > li::before{
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FF802C;
+}
+
+.ustanovka ul > li, .dostavka ul > li{
+    font-size: 1.25rem;
+}
+
+.uslugi a, .garantiya a{
+    color: $orangeColor;
+}
+
+.uslugi a:hover, .garantiya a:hover{
+    text-decoration: underline;
+    color: $orangeColor;
+}
+
+.vyzov_zamer.home__zamer::after {    
+    // background: url(/images/besplatnyy-zamer-plastikovykh-okon.jpeg?25b922c…) center;
+    opacity: 0.2 !important;
+}
+
+.vyzov_zamer .home__form__zamer > div{
+    width: 350px;
+}
+
+.vyzov_zamer .home__form__zamer .btn-main{
+    width: 100% !important;
+}
+
+.dostavka__flex1 > div:first-child{
+    width: 80%;
+    // padding-right: 20px;
+}
+
+.dostavka__flex1 > div:nth-child(2){
+    width: 20%;
+}
+
+.dostavka__flex1 > div{
+    align-self: center;
+}
+
+.alert-warning::before{    
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f06a";
+    margin-right: 10px;
+}
+
+.dostavka__flex1 img{
+    width: auto;
+}
+
+.garantiya__title {
+    color: $orangeColor;
+}

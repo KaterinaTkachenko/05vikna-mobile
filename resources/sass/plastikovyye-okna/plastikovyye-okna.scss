@@ -1,0 +1,84 @@
+.plastOkna__block1 h2{
+    border-bottom: 1px solid $orangeColor;
+    padding-bottom: 30px;
+}
+
+.plastOkna__table1, .plastOkna__table2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0 50px;
+    border-bottom: 1px solid $orangeColor;
+    padding-bottom: 40px;
+}
+
+.plastOkna__table2{
+    border-top: 1px solid #ededf0;
+    border-bottom: 0;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.plastOkna__table1 > div, .plastOkna__table2 > div{
+    width: 150px; 
+    text-align: center;
+    position: relative;
+}
+
+.plastOkna__table1 > div img{
+    margin-bottom: 20px;
+    width: auto;
+    height: 150px;
+}
+
+.plastOkna__table1 > div a{
+    display: block;
+    text-align: center;
+    color: $orangeColor;
+}
+
+.plastOkna__table1 > div:hover::before {
+    top: -20px;
+    right: -30px;
+    bottom: -30px;
+    left: -30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 0px;
+}
+.plastOkna__table1 > div::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -25px;
+    right: -25px;
+    bottom: -10px;
+    left: -25px;
+    z-index: -1;
+    background-color: white;
+    transition-duration: 0.5s;
+    transition-property: top, right, bottom, left, box-shadow;
+}
+
+.fa-sun, .fa-volume-up{
+    color: rgb(255, 193, 7);
+}
+
+.plastOkna__block2 ul{
+    margin: 0 0 1em;
+    padding: 0 0 0 1.1em;
+}
+
+.plastOkna__block2 li{
+    margin-bottom: 20px;
+}
+
+.plastOkna__block2 ul li::marker{
+    font-size: 22px;
+    color: $orangeColor!important;
+}
+
+.decimal{
+    color: $orangeColor;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-right: 10px;
+}

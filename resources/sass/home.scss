@@ -1,0 +1,252 @@
+#home .carousel-inner img {
+    width: 100%;
+    height: 80vh;
+}
+
+#home .carousel-item{
+    position: relative;
+}
+
+#home .carousel-caption{
+    top: 20px;
+    left: 100px;
+    text-align: left;
+    font-size: 24px;
+    width: 30%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#home .carousel-caption h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#home .carousel-caption p{
+    text-align: left;
+}
+
+.arrBlock{
+    position: absolute;
+    width: 10%;
+    bottom: 120px;
+    right: 60px;
+}
+
+#home .carousel-control-prev {
+    left: 80px;
+}
+
+#home .carousel-indicators {    
+    right: 135px;
+    bottom: 105px;    
+    justify-content: flex-end;
+    margin: 0 12px 0 0;
+}
+
+#home .carousel-indicators > li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;    
+}
+
+.home__form{
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+    z-index: 20;
+}
+
+.home__form .fa-user, .home__form .fa-phone-alt, .home__form__zamer .fa-user, .home__form__zamer .fa-phone-alt{
+    font-size: 18px;    
+    top: 23px;
+    opacity: .7;
+}
+
+.home__form input, .home__form__zamer input{
+    margin-right: 15px;    
+    padding: 28px 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.home__form input::placeholder, .home__form__zamer::placeholder{
+    opacity: .7;
+}
+
+.home__form .fa-user, .home__form__zamer .fa-user{
+    left: 20px;
+}
+
+.home__form .fa-phone-alt, .home__form__zamer .fa-phone-alt{
+    left: 343px;
+}
+
+.home__form .btn-main, .home__form__zamer .btn-main{
+    padding: 16px;
+    font-size: 22px;
+}
+
+.home__form .btn-main{
+    width: 100%;
+}
+
+.benefit, .home__page2, .home__prices{
+    width: 100%;
+    display: flex;
+    margin: 30px 0 0;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.benefit > div, .home__page2 > div, .home__prices > div{
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;  
+}
+
+.benefit > div img, .home__page2 > div img{
+    width: auto;
+    height: 60px;
+    margin: 20px 0px;
+}
+
+.benefit > div p, .home__page2 > div h4, .home__prices > div h4, .home__prices > div p{
+    text-align: center;
+}
+
+.home__page2 > div h4{
+    margin: 0;
+}
+
+.home__page2 > div{
+    width: 350px;
+    background-color: $backgroundBoxColor;
+    border-radius: 8px;
+    padding-bottom: 50px; 
+}
+
+.home__page2 > div img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.home__prices > div{
+    width: 350px;
+}
+
+.home__prices > div img{
+    margin: 0 0 20px;
+    width: auto;
+    height: 278;
+}
+
+.home__prices .btn-main{
+    background-color: #fff;
+    width: 60%;
+    padding: 10px 20px;
+}
+
+.home__prices .btn-main:hover{
+    background-color: $orangeColor;
+}
+
+.baclcons img{
+    width: 100%;
+}
+
+.home__zamer::after{
+    content: "";
+    background: url('../images/besplatnyy-zamer-plastikovykh-okon.jpeg');
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.home__form__zamer{
+    position: relative;
+    margin: 50px 0 60px;
+}
+
+.home__form__zamer .fa-phone-alt {
+    left: 20px;
+}
+
+.home__zamer__text{
+    font-size: 1.5rem;
+}
+
+.home__page7{
+    margin-bottom: 30px;
+}
+
+.home__page7 ul li{
+    background: url('../images/checklist-check.png') no-repeat left top;
+    padding: 0px 0px 15px 55px;
+    list-style: none;
+    margin: 25px 0 0;
+    text-align: justify;
+}
+
+.home__form__zamer input, .home__form__zamer .btn-main{
+    width: fit-content;
+}
+
+.home__oplata{
+    background-color: $backgroundBoxColor;
+    padding-bottom: 60px;
+}
+
+.home__oplata__content > div{
+    width: 132px;
+    border-radius: 8px;
+}
+
+.home__tasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 30px 0 0;
+}
+
+.home__tasks > div{
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;  
+}
+
+.home__tasks > div img{
+    height: 125px;
+    width: auto;
+    margin: 20px 0px;
+}
+
+.home__tasks p{
+    font-size: 14px;
+    text-align: left;
+}
+
+.home__tasks h4{
+    text-align: left;
+    font-size: 18px;
+}
+
+.home_page9{
+    background-color: $backgroundBoxColor;
+}
+
+// .home_page9 .btn-main.active:hover{
+//     background-color: #ff9d33;
+// }

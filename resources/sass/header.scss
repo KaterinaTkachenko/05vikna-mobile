@@ -1,0 +1,118 @@
+.btn-main, .btn-zamer{
+    padding: 21px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 2px solid $orangeColor;
+    transition: 0.5s ease;
+}
+
+.btn-main{
+    color: $orangeColor;
+}
+
+.btn-main:hover, .btn-zamer{
+    color: #fff;
+    background: $orangeColor;
+}
+
+.btn-zamer:hover{
+    background-color: #3c3e40;
+    color: #fff;
+    border-color: #3c3e40;
+}
+
+.header__phone, .header__scheduler{
+    width: 100%;
+}
+
+.header__phone{    
+    font-weight: 600;
+    font-size: 20px;
+    color: #1b1c1d;
+}
+
+.header__scheduler{    
+    font-size: 12px;
+}
+
+.header__icon{
+    width: 25%;
+    padding: 0 7px;
+    padding-top: 5px;
+}
+
+.header__menu{
+    font-size: 14px;
+}
+
+.header__menu > li:after{
+    content: '|';
+    padding: 0 20px; 
+}
+
+.header__menu li:last-child:after{
+    content: '';    
+}
+
+.header__menu li a:hover{
+    color: $orangeColor;
+}
+
+.header__icons{
+    margin-bottom: 15px;
+}
+
+.header__icons li:first-child{
+    width: 30%;
+    text-align: center;
+}
+
+.header__icons li{
+    width: 35%;
+    text-align: start;
+}
+
+.header__menu li{
+    display: inline;
+    position: relative;
+}
+
+.header__menu ul, .menu ul { 
+    position: absolute;
+    left: -25px;
+    top: 130%;
+    display: none;
+    z-index: 100;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+}
+
+.btnDiv{
+    padding-right: 10px;
+}
+
+.menu ul {
+    left: 0!important;
+}
+
+.header__menu li:hover ul, .menu li:hover ul { 
+    display: block;
+}
+
+.header__menu__item{
+    padding: 20px 0;
+}
+
+.dropdown-content, .submenu1{
+    text-align: left;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: $orangeColor;
+}
+
+.dropdown-item:hover {
+    background-color: unset;
+}

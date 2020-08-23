@@ -1,0 +1,169 @@
+.rehau60_catalog, .rehau60__tech{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog__parambox, .catalog__content{
+    width: 25%;
+    align-self: center;
+}
+
+.catalog__img, .rehau60__tech > div{
+    width: 50%;
+}
+
+.rehau60_catalog > div img{
+    width: auto;
+    height: 450px;
+}
+
+.catalogbox__param__value{
+    font-weight: bold; 
+    margin-bottom: 0;
+}
+
+.catalogbox__param__title, .catalogbox__calc{
+    color: $orangeColor;
+    margin-bottom: 25px;
+}
+
+.catalog__img{
+    text-align: center;
+    align-self: start;
+}
+
+.rehau60_catalog .btn-main{
+    margin: 18px 0 25px;
+}
+
+.catalog__content{
+    text-align: center;
+}
+
+.rehau60 .fa-plus-circle, .rehau70 .fa-plus-circle, .catalog__content a{
+    font-size: 24px;
+}
+
+.catalog__content a{
+    margin-left: 15px;
+}
+
+.rehau60_catalog .btn-main{
+    color: #fff;
+    background-color: #FF802C;
+    padding: 15px;
+    width: 75%;
+}
+
+.catalog__content .btn-main:hover, .home_page9 .btn-main:hover{
+    background-color: #ff9d33;
+    border-color: #ff9d33;
+}
+
+.catalog__parambox__mobile, .catalog__parambox__mobile .catalog__parambox{
+    display: none;
+    transition: 1s;
+    text-align: center;
+    width: 100%;
+}
+
+.js__showParams{
+    color: $orangeColor;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-decoration: underline;    
+}
+
+.rehau60__title {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #dae7f3;
+    background: none;
+    position: relative;
+    padding: 10px 0;
+    border-color: #ddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;    
+}
+
+.rehau60__title:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -2px;
+    width: 200px;
+    height: 3px;
+    background-color: $orangeColor;
+}
+
+.rehau60__title .highlight {
+    color: $orangeColor;
+}
+
+.rehau60__desc{
+    margin: 20px 0;
+}
+
+.rehau60__desc ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FF802C;
+}
+
+.rehau60__desc ul > li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+}
+
+.table-border-wrap {
+    padding: 3px 0;
+    border-top: 1px solid #dae7f3;
+    border-bottom: 1px solid #dae7f3;
+    margin: 15px 0;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n) {
+    background: #e9f1f8;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background: transparent;
+}
+
+.table-border-wrap .table {
+    margin-bottom: 0;
+}
+
+.table-striped > tbody > tr > td {
+    font-size: 12px;
+    border: none;
+}
+
+.rehau60__tech > div:last-child{
+    text-align: center;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.rehau60__desc ol{
+    list-style: decimal;
+    padding-left: 20px;
+    font-size: 1.25rem;
+}
+
+.rehau60__desc ol li ul li{
+    font-size: 1.1rem;
+}
+
+.rehau60__desc ol li{
+    padding-bottom: 10px;
+}

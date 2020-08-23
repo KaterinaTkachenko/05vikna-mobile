@@ -1,0 +1,53 @@
+
+footer{
+    background-color: $darkblueColor;
+    color: #fff;
+}
+
+footer .container-fluid{
+    padding: 1.5rem 0;
+}
+
+footer .container{
+    padding-top: 20px;
+}
+
+footer h4{
+    font-weight: 600;
+}
+
+footer li{
+    font-size: 13px;
+    padding: 3px 0;
+    color: #a7abb3ff;
+}
+
+footer li a:hover{
+    color: $orangeColor;
+}
+
+footer .btn-main{
+    padding: 15px;
+    margin-left: 15px;
+    color: #fff;
+} 
+
+footer .btn-main.zamer, footer{
+    background-color: $darkblueColor;
+}
+
+footer .btn-main.zamer:hover{
+    background-color: $orangeColor;
+    color: #fff;
+}
+
+.btn-main.active, footer .btn-main.active{
+    color: #fff;
+    background-color: $orangeColor;
+    padding: 15px;
+}
+
+footer .container > div{
+    border-bottom: 1px solid rgba(255,255,255,0.16);
+    padding-bottom: 20px;
+}

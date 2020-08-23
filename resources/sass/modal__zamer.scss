@@ -1,0 +1,60 @@
+.modal-header{
+    position: relative;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.modal-header .close{
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 26px;
+}
+
+.modal-content{
+    border-radius: 8px;
+}
+
+.statusMsg{
+    padding: 0px 30px 10px;
+    font-size: 17px;
+}
+
+.statusMsg p{
+    font-size: 17px;
+}
+
+button.btn-main.submitBtn{
+    color: #fff;
+    background-color: $orangeColor;
+    padding: 10px 20px;
+}
+
+.calc__box button.btn-main.submitBtn{
+    width: 100%;
+}
+
+#phone-modal, #phone_modal_call{
+    border: 1px solid #242424;
+    border-radius: 8px;
+    padding: 25px;
+    font-size: 17px;
+    padding-left: 45px;
+}
+
+
+#modal-zamer .fa-phone-alt, #modal-call .fa-phone-alt {
+    position: absolute;
+    top: 16px;
+    left: 28px;
+    color: grey;
+    font-size: 20px;
+}
+
+.spinner{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    display: none;
+    z-index: 10;
+}

@@ -1,0 +1,55 @@
+#menu{
+    border: solid #ececec;
+    border-width: 1px 0;
+    border-top-color: #e1e1e1;
+    padding: 0;
+}
+
+.menu{
+    margin-left: 25px;
+}
+
+.menu > li{
+    padding: 20px 17px;
+}
+
+.menu li:hover{
+    color: $orangeColor;
+}
+
+.btn-zamer{
+    letter-spacing: unset;
+    transition: 0.5s ease;
+}
+
+.submenu1, .submenu2, .submenu3{
+    background-color: #fff!important;
+    column-count: 4;
+    top: 102%!important;
+    padding: 1rem 200px!important;
+    width: 100%;
+}
+
+.submenu1 li, .submenu2 li, .submenu3 li{
+    padding: .5rem 1.8rem;
+}
+
+.submenu2{
+    column-count: 3;
+}
+
+.submenu3{
+    column-count: 4;    
+}
+
+.menu.dropdown-item{
+    padding: 0!important;
+}
+
+.submenu1 li a:hover,.submenu2 li a:hover, .submenu3 li a:hover{
+    color: $orangeColor;
+}
+
+.openSidebar{
+    cursor: pointer;
+}

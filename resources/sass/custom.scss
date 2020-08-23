@@ -1,0 +1,107 @@
+.hidden{
+	display: none!important;
+}
+
+.b-grey{
+    color: $greyColor;
+}
+
+.orangeColor{
+  color: $orangeColor;
+}
+
+html {
+    min-height:100%;
+    position: relative;
+ }
+
+.overlay {
+    background: grey;  
+    display: none;       
+    position: absolute;  
+    top: 0;                 
+    right: 0;                
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 100000000;
+    height: 100%;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    z-index: 10;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #fff;
+    border-radius: 50%;
+    border-top: 16px solid $orangeColor;
+    border-bottom: 16px solid $orangeColor;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.upper_fixed {
+    right: 7.2%!important;
+    visibility: visible!important;
+    opacity: 1!important;
+}
+
+.upper {
+    position: fixed;
+    bottom: 190px;
+    right: -100px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s 0s, visibility 0.2s 0s, right 0.2s 0s;
+    -o-transition: opacity 0.2s 0s, visibility 0.2s 0s, right 0.2s 0s;
+    -moz-transition: opacity 0.2s 0s, visibility 0.2s 0s, right 0.2s 0s;
+    transition: opacity 0.2s 0s, visibility 0.2s 0s, right 0.2s 0s;
+}
+
+.upper .upper__btn {
+    width: 60px;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity 0.15s;
+    -o-transition: opacity 0.15s;
+    -moz-transition: opacity 0.15s;
+    transition: opacity 0.15s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.upper .upper__btn img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.upper .upper__btn:hover {
+    opacity: 0.8!important;
+}
+
+.shadowBox{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+button.btn-main.submitBtn:hover, button.btn-main.active:hover{
+    border-color: $darkgreyColor;
+    background-color: $darkgreyColor;
+}

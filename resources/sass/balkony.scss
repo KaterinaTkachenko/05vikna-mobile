@@ -1,0 +1,38 @@
+.bankony__block1, .balkony__flex2{
+    margin: 40px 0;
+}
+
+.bankony__block1 > div{
+    width: 23%;
+}
+
+.bankony ul > li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.bankony ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $orangeColor;
+}
+
+.balkony__flex2 > div{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.balkony__lastUl {
+    margin-bottom: 20px;
+}
+
+.balkony__lastUl li{
+    margin-bottom: 10px !important;    
+}

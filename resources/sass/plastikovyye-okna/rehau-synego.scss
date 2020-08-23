@@ -1,0 +1,11 @@
+.rehau_synego .rehau60__tech > div:first-child{
+    width: 100%;
+}
+
+.rehau_synego .rehau60__tech > div:not(:first-child){
+    width: 50%;
+}
+
+.rehau_synego .rehau60__tech > div:last-child {
+    margin-top: 0px;
+}

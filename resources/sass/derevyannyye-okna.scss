@@ -1,0 +1,88 @@
+.advant__item1 img{
+    margin-bottom: 20px;
+}
+
+.advant__item1 {
+    width: 40%;
+    padding: 0 20px;
+}
+
+.advant__item2{
+    width: 60%;
+    padding: 0 20px;
+}
+
+.small_icons img{
+    margin-right: 10px;
+    padding: 7px;
+    cursor: pointer;
+    width: auto;
+}
+
+.advant__item2 ul > li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+}
+
+.advant__item2 ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: $orangeColor;
+}
+
+.small_icons .active{
+    border: 6px solid $orangeColor;
+    padding: 0;
+}
+
+.derev__konstr img{
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.derev__konstr > div{
+    text-align: center;
+}
+
+.derev__konstr a:hover p{
+    color: $orangeColor;
+}
+
+.derev__konstr p{
+    width: 200px;
+    text-align: center;
+}
+
+.derev__serii img{
+    width: 200px;
+}
+
+.derev__serii > div{
+    width: 380px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.derev__sorta > div{
+    width: 150px;
+    text-align: center;
+}
+
+.derev__sorta > div img{
+    width: auto;
+}
+
+.derev__sorta > div p{
+    text-align: center;
+    font-size: 1rem;
+}

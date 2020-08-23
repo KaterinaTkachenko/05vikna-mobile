@@ -1,0 +1,1059 @@
+@media screen and (max-width: 1440px) {
+    .home__form__zamer .fa-phone-alt {
+        top: 21px!important;
+    }
+}
+
+@media screen and (max-width: 1296px) {
+    .menu {
+        justify-content: space-between !important;
+        margin-right: 3px;
+        margin-left: 20px;
+    }
+    
+    #menu{
+        font-size: 14px!important;
+    }
+}
+
+@media screen and (max-width: 1294px) {
+    .menu {
+        margin-right: 7px;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+    .menu {
+        margin-right: 2px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .menu {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1275px) {
+    .btnDiv {
+        padding-right: 15px;
+    }
+
+    .firstDiv {
+        padding-left: 23px;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    .btnDiv {
+        padding-right: 18px;
+    }
+
+    .firstDiv {
+        padding-left: 28px;
+    }
+}
+
+
+@media screen and (max-width: 1255px) {
+    .btnDiv {
+        padding-right: 22px;
+    }
+
+    .firstDiv {
+        padding-left: 30px;
+    }
+
+    .home__form input, .home__form__zamer input, .home__form .btn-main {
+        font-size: 20px!important;
+    }
+
+    .home__form .fa-phone-alt {
+        left: 327px!important;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .btnDiv {
+        padding-right: 26px;
+    }
+
+    .firstDiv {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1239px){
+    .b-color-lam {
+        flex-direction: column-reverse;
+    }
+
+    .b-color-lam .color-lam__big {
+        width: 40%!important;
+        margin: 0 auto;
+    }
+
+    .b-color-lam .color-lam__switch {
+        width: auto;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1235px) {
+    .btnDiv {
+        padding-right: 27px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .podokon__danke__premium > div {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #home .carouselTitle {
+        font-size: 36px!important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .b-color-lam .color-lam__switch {
+        width: 100%!important;
+    }
+
+    .okna__advantage, .home__prices {
+        justify-content: center!important;
+    }
+
+    .home__prices div:last-child{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .vhod__dveri__flex1 .dveri__flex1__item2 {
+        width: 80% !important;
+        margin-top: 20px;
+    }
+
+    .dveri__flex1{
+        justify-content: space-around !important;
+    }   
+
+    .dveri__flex1 > div{
+        margin-bottom: 10px;
+    }  
+    
+    .dlya__doma__flex5 > div{
+        width: 300px !important;
+    }
+    
+    .komfort{
+        justify-content: space-between !important;
+    }
+    
+    .steklp__lists > div {
+        width: 50% !important;    
+    }
+
+    .rehau60_catalog .btn-main,
+    .calc__info button {
+        width: 100%!important;
+    }
+
+    .rehau60 .fa-plus-circle, .catalogbox__content a{
+        font-size: 22px!important;
+    }
+
+    .catalogbox__name{
+        font-size: 1.8rem;
+    }
+
+    #header, #menu {
+        display: none;
+    }
+
+    #header__responsive {
+        display: block !important;
+    }
+
+    .home__prices .btn-main{
+        width: 100%;
+    }
+
+    .home__form {
+        bottom: 20px!important;
+    }
+
+    .arrBlock {
+        bottom: 70px!important;
+        right: 30px!important;
+    }
+
+    #home .carousel-indicators {
+        right: 70px!important;
+        bottom: 53px!important;
+    }
+
+    #home .carousel-control-next {
+        right: -3px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #home .carousel-indicators {
+        right: 55px !important;
+    }
+
+    .arrBlock {
+        right: 20px !important;
+    }
+
+    #home .carousel-control-next {
+        right: -6px;
+    }
+}
+
+@media screen and (max-width: 1122px){
+    .home__form input, .home__form__zamer input, .home__form .btn-main {
+        font-size: 18px !important;
+    }
+
+    .home__form .fa-phone-alt{
+        left: 310px !important;
+    }    
+
+    #home .carousel-control-next {
+        right: -10px;
+    }
+
+    .home__form input, .home__form__zamer input {
+        padding: 24px 30px;
+    }
+
+    .home__form .fa-user, .home__form .fa-phone-alt, .home__form__zamer .fa-user, .home__form__zamer .fa-phone-alt {
+        top: 18px!important;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .home__form, #home .carousel-caption {
+        left: 50px!important;
+    }
+
+    #home .carousel-control-next {
+        right: -12px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .home__form__zamer .fa-phone-alt {
+        top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    #home .carousel-control-prev {
+        left: 75px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #home .carouselTitle {
+        font-size: 34px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .dveri__flex3 ul{
+        text-align: left;
+    }
+    
+    .dveri__flex3 > div {
+        text-align: center;
+    }
+
+    .dveri__flex3 > div {
+        width: 100% !important;
+    }
+
+    .dveri__flex2 > div{
+        margin-bottom: 25px;
+    }
+
+    .podokon__danke__premium > div {
+        width: 200px !important;
+    }
+
+    .steklp__form__zamer > div:last-child{
+        width: 40% !important;
+        margin-top: 20px;
+    }
+
+    .steklp__form__zamer > div:not(:last-child){
+        width: 33.3% !important;
+    }
+
+    .catalog__parambox{
+        display: none;
+    }
+
+    .catalog__content, .catalog__img{
+        width: 50%!important;
+    }
+
+    .rehau60_catalog .btn-main {
+        width: 68% !important;
+    }
+
+    .catalog__content {
+        text-align: right !important;
+    }
+   
+    .rehau60_catalog {
+        justify-content: space-between;
+    }
+
+    .plastOkna__table2 div:first-child {
+        width: 100%;
+    }  
+        
+    .plastOkna__table{
+        justify-content: space-around!important;
+    }
+
+    .plastOkna__table > div{
+        margin-bottom: 30px;
+    }
+
+    .mosk__block3 > div {
+        padding: 0px 10px!important;
+    }
+    
+    .mosk__block3 > div:nth-child(2), .mosk__block3 > div:nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .catalog__item{
+        width: 30%!important;
+    }
+
+    .catalog__item h3{
+        font-size: 1rem!important;
+    }
+
+    .home__form__zamer .fa-phone-alt {
+        left: 13px !important;
+    }
+
+    .home__tasks{
+        justify-content: space-around!important;
+    }
+
+    footer h4 {
+        font-size: 1rem !important;
+    }
+
+    #home .carousel-indicators {
+        right: 45px !important;
+    }
+
+    .arrBlock {
+        bottom: 27px !important;
+    }
+
+    #home .carousel-indicators {
+        bottom: 10px !important;
+    }
+
+    .home__form input, .home__form__zamer input {
+        padding: 24px 35px  !important;
+    }
+
+    .home__form .fa-user, .home__form .fa-phone-alt, .home__form__zamer .fa-user, .home__form__zamer .fa-phone-alt {
+        font-size: 17px!important;
+    }
+
+    .home__form .fa-user, .home__form__zamer .fa-user, .home__form .fa-phone-alt {
+        left: 12px!important;
+    }
+}
+
+@media screen and (max-width: 955px){
+    #home .carousel-control-prev {
+        left: 70px !important;
+    }
+}
+
+@media screen and (max-width: 942px){
+    #home .carouselTitle {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (max-width: 895px){
+    .home__form {
+        bottom: 40px !important;
+    }
+
+    #home .carousel-control-prev {
+        left: 65px !important;
+    }
+}
+
+@media screen and (max-width: 892px){
+    #home .carousel-caption {
+        width: 32% !important;
+    }
+}
+
+@media screen and (max-width: 870px){
+    #username, .home__form .fa-user {
+        display: none;
+    }
+
+    #home .carousel-control-prev {
+        left: 65px !important;
+    }
+}
+
+@media screen and (max-width: 836px){
+    #home .carousel-caption {
+        width: 33% !important;
+    }
+}
+
+@media screen and (max-width: 811px){
+    #home .carousel-caption {
+        width: 35% !important;
+    }
+
+    #home .carousel-control-prev {
+        left: 62px !important;
+    }
+
+    .arrBlock {        
+        width: 12%!important;
+    }
+}
+
+@media (max-width: 768px) { 
+    .dostavka__flex1{
+        flex-direction: column;
+    }
+
+    .dostavka__flex1>div{
+        width: 100% !important;
+    }
+
+    .vhod__dveri__flex11{
+        flex-direction: column;
+    }
+
+    .dveri__flex1__item2 .btn-main {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    
+    .vhod__dveri__price{
+        margin: 0 !important;
+    }
+
+    .okna__dlya__doma .flex2__item1 img {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .dlya__doma__flex5 > div {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .okna__dlya__doma .flex2__item1
+    , .okna__dlya__doma .flex4__item1
+    , .okna__dlya__doma .flex2__item2
+    , .okna__dlya__doma .flex4__item2{
+        width: 100% !important;        
+    }
+
+    .okna__dlya__doma .flex4__item1 img{
+        width: auto;        
+    }
+
+    .okna__dlya__doma .flex2__item1
+    , .okna__dlya__doma .flex4__item1{
+        text-align: center;     
+    }
+
+    .bankony__block1 > div {
+        width: 48% !important;
+        margin-bottom: 20px;
+    }
+
+    .advant__item2{
+        margin-top: 20px;
+    }
+
+    .advant__item1, .advant__item2, .derev__serii > div {
+        width: 100% !important;
+    }
+
+    .derev__serii img{
+        width: auto!important;
+    }
+
+    .komfort img{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .steklp__zamer {
+        background: url(/images/form-call-gager2-bg.jpg?130dcb6…) 46% 0 no-repeat!important;
+    }
+
+    .steklp__form__zamer > div:last-child{
+        width: 100% !important;
+    }
+
+    .steklp__zamer .container {
+        padding-top: 60px;
+    }
+
+    .menu_hide {
+        display: none;
+    }
+
+    .rehau60_catalog, .rehau60__tech{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .catalog__img, .catalog__content {
+        text-align: center !important;
+        align-self: center !important;
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+
+    .rehau60__tech > div {
+        text-align: left !important;
+    }
+
+    .rehau60_catalog .btn-main, .rehau60__tech > div {
+        width: 100% !important;
+    }
+
+    .catalog__parambox__mobile{
+        display: block !important;        
+    }
+
+    .plastOkna__table2 {
+        justify-content: space-between!important;
+    }  
+
+    .plastOkna__table2 > div:not(first) {
+        width: 20%;
+    }
+
+    .b-line {
+        margin: 40px -20px 40px;
+    }
+
+    .catalog__item{
+        width: 50%!important;
+    }
+    
+    .catalog__item img{
+        width: 110px;
+    }
+
+    .catalog__item h3 {
+        font-weight: normal;
+        font-size: 1.5rem;       
+    }
+
+    .home__oplata__content div:nth-child(3), .home__oplata__content div:nth-child(4){
+        margin-top: 20px;
+    }
+
+    .home__oplata__content{
+        justify-content: space-around!important;
+    }
+
+    .home__oplata h1{
+        margin: 40px 0!important;
+    }
+
+    .home__prices {
+        margin: 0!important;
+    }
+
+    #home .carousel-inner img {    
+        height: auto !important;
+    }
+
+    .home__form {
+        bottom: -5px !important;
+    }
+
+    #header__responsive .container-fluid{
+        padding: .6rem 1.5rem !important;
+    }
+
+    .arrBlock{
+        display: none;
+    }
+
+    #home .carousel-indicators {
+        right: 0px !important;
+    }
+
+    #home .carouselTitle {
+        font-size: 26px !important;
+    }
+
+    #home .carousel-caption {
+        top: 0px !important;
+    }
+
+    .home__form, #home .carousel-caption {
+        left: 23px !important;
+    }
+
+    #header__responsive .btn-main {
+        padding: 10px 15px;
+    }
+
+    footer .container {
+        width: 100%;
+        max-width: none;
+        padding: 0 3rem !important;
+    }
+
+    footer .container>div {
+        padding: 20px 0;
+    }
+
+    footer a.btn-main {
+        display: block;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    footer .btn-main,
+    footer a.btn-main {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+    footer ul {
+        margin-bottom: 15px;
+    }
+
+    .footer__list {
+        margin: auto;
+    }
+
+    .b-color-lam .color-lam__big {
+        width: 60%!important;
+    }
+
+    .b-color-lam .color-lam__switch {
+        // width: auto;
+        margin: 20px auto 10px;
+        padding: 20px 10px !important;
+    }
+
+    .okna__advantage {
+        justify-content: center;
+    }
+
+    .okna__profile {
+        flex-direction: column;
+    }
+
+    .okna__advantage .advantage__item {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .okna__advantage .advantage__item p {
+        border-top: none;
+        padding-top: 10px;
+    }
+
+    .okna__advantage .advantage__item p::before {
+        content: '';
+        display: block;
+        border-top: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #home .carousel-caption {
+        top: -12px !important;
+    }
+
+    .home__form {
+        bottom: -10px !important;
+    }
+
+    #home .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    #home .carouselTitle {
+        font-size: 24px !important;
+    }
+
+    #home .carousel-indicators > li {
+        width: 8px;
+        height: 8px;
+    }
+
+    #home .carousel-caption {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 594px) {
+    #home .carouselTitle {
+        font-size: 20px !important;
+    }
+
+    .home__form input, .home__form__zamer input, .home__form .btn-main, #header__responsive .btn-main, #header__responsive .btn-zamer {
+        font-size: 14px !important;
+    }
+
+    .home__form .fa-user, .home__form .fa-phone-alt, .home__form__zamer .fa-user, .home__form__zamer .fa-phone-alt {
+        top: 12px !important;
+    }
+
+    #header__responsive .btn-main {
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer__list {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 558px) {
+    .home__form, #home .carousel-caption {
+        left: 25px !important;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .responsBtnsDiv .btn-main{
+        display: block;
+        margin-bottom: 10px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .responsBtnsDiv .btn-main.zamer{
+        margin-bottom: 0px!important;
+    }
+
+    .mosk__block3 {
+        justify-content: center!important;
+    }
+
+    .mosk__block3 > div {
+        margin-top: 20px;
+    }
+
+    .calc__info img {
+        width: 40%!important;
+    }
+}
+
+@media screen and (max-width: 522px) {
+
+    #header__responsive .btn-main,
+    #header__responsive .btn-zamer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .responsBtnsDiv {
+        padding-left: 0;
+    }
+
+    .steklp__catalog {
+        flex-direction: column;
+    }
+
+    .catalog__item {
+        width: 100%!important;
+    }
+
+    .mosk__block2__item1 {
+        width: 35%!important;
+    }
+
+    .mosk__block2__item2 {
+        width: 65%!important;
+    }
+
+    .podokon__danke__premium{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .podokon__danke__premium > div {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 426px) {  
+    .okna__dlya__doma .flex4__item1 img {
+        width: 100% !important;
+    }
+
+    .bankony__flex3 > div{
+        width: 100% !important;
+    }
+
+    .balkony__flex2 > div {
+        width: 100% !important;
+        margin-bottom: 20px;
+        padding: 0 !important;
+    }
+
+    .steklp__zamer{
+        background-size: auto 160px !important;
+        background-color: #efefef!important;
+    }
+
+    .steklp__zamer h1{
+        margin-top: 120px !important;
+    }
+
+    .steklp__form__zamer > div:not(:last-child) {
+        width: 100% !important;
+    }
+
+    .plastOkna__table2 > div:not(first) {
+        width: 30%;
+    }
+
+    .plastOkna__table2 {
+        justify-content: center!important;
+    } 
+
+    .mosk__block2__item1 img{
+        margin-bottom: 20px;
+    }
+
+    .mosk__block2 img{
+        width: 100%!important;
+    }
+
+    .mosk__block >div:nth-child(even){
+        flex-direction: column-reverse;
+    }
+
+    .mosk__block2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mosk__block2__item2{
+        align-self: center;
+        width: 100%!important;
+    }
+    
+    .home__page7 ul li {
+        background-size: 30px 30px!important;
+        padding: 0px 0px 15px 40px!important;
+    }
+
+    .home__form .fa-phone-alt{
+        left: 13px !important;
+        top: 17px !important;
+    }
+
+    .home__form__zamer .fa-phone-alt {
+        font-size: 16px !important;
+        left: 14px !important;
+    }
+
+    #home .carousel-caption {
+        width: 45% !important;
+    }
+
+    .home__form {
+        bottom: -80px !important;
+    }
+
+    .home__form {
+        left: 10px !important;
+    }
+
+    .benefit{
+        margin-top: 80px!important;
+    }
+
+    .home__form input {
+        margin-right: 5px;
+    }
+
+    .home__form .fa-user{
+        top: 17px !important;
+    }
+
+    .home__form__zamer input, .home__form__zamer .btn-main {
+        width: 100% !important;
+        margin-right: 0!important;
+    }
+
+    .home__form__zamer input{
+        margin-bottom: 15px;
+    }
+
+    .home__form__zamer .fa-phone-alt {
+        left: 13px !important;
+        top: 17px !important;
+    }
+
+    .home__oplata__content div:first-child, .home__oplata__content div:nth-child(2){
+        margin-bottom: 20px!important;
+    }
+}
+
+@media screen and (max-width: 402px) {
+    .home__oplata__content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home__oplata__content > div {
+        width: 170px!important;
+    }
+
+    #header__responsive .container-fluid {
+        padding: 1rem !important;
+    }
+
+    .home__form div:first-child{
+        flex-direction: column;
+    }
+
+    .home__form {
+        left: 75px !important;
+        bottom: -135px !important;
+    }
+
+    .home__form input {
+        margin-right: 0px!important;
+        margin-bottom: 15px;
+    }
+
+    .benefit {
+        margin-top: 120px !important;
+    }
+
+    #home .carousel-caption {
+        width: 60% !important;
+    }
+
+    .home__form__zamer .btn-main {
+        font-size: 16px!important;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    #odnostvorchatoye img{
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .carousel-control-next {
+        right: -23px !important;
+    }
+
+    .carousel-control-prev {
+        left: -23px !important;
+    }
+
+    .dlya__doma__flex5 > div img {        
+        width: 100% !important;
+    }
+
+    .okna__advantage .advantage__item p {       
+        padding-top: 0px!important;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    .profile__switch span {
+        margin-right: 12px!important;
+    }
+
+    .profile__title {
+        font-size: 15px!important;
+    }
+}
+
+@media screen and (max-width: 346px) {
+    .responsBtnsDiv .btn-main {
+        width: 90%;
+    }
+
+    .responsBtnsDiv {
+        padding-left: 15px;
+    }
+
+    #header__responsive .btn-main {
+        margin-left: 10px;
+    }
+
+    .home__form {
+        left: 60px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home__form {
+        left: 50px !important;
+    }
+
+    .plastOkna__table1{
+        justify-content: center!important;
+    }
+
+    .plastOkna__table2 > div:not(first) {
+        width: 40%;
+        text-align: left;
+    }
+
+    .dlya__doma__flex1{
+        justify-content: center!important;
+    }
+}

@@ -1,0 +1,32 @@
+#header__responsive{
+    background: $darkblueColor
+}
+
+.menu__text{
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu__text:hover{
+    color: $orangeColor;    
+}
+
+#header__responsive .btn-main{
+    padding: 15px;
+    margin-left: 15px;
+    color: #fff;
+} 
+
+#header__responsive .btn-main.zamer, footer{
+    background-color: $darkblueColor;
+}
+
+#header__responsive .btn-main.zamer:hover{
+    background-color: $orangeColor;
+    color: #fff;
+}
+
+#header__responsive .btn-main.active{
+    color: #fff;
+    background-color: $orangeColor;
+}

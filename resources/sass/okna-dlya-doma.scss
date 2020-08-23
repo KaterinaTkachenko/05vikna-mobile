@@ -1,0 +1,105 @@
+.dlya__doma__flex1, .dlya__doma__flex2, .dlya__doma__flex6, .dlya__doma__flex5 {
+    margin: 30px 0 0px;
+}
+
+.dlya__doma__flex1 > div{
+    width: 150px;   
+}
+
+.dlya__doma__flex1 > div p
+, .dlya__doma__flex1 > div
+,.dlya__doma__flex1 .flex2__item1{
+    text-align: center;
+}
+
+.dlya__doma__flex1 > div p{
+    font-size: 1rem;
+}
+
+.dlya__doma__flex1 > div img
+, .dlya__doma__flex3 img
+, .flex2__item2 img
+, .flex7__item1 img{
+    width: auto;
+}
+
+.flex2__item1{
+    width: 35%;
+    align-self: center;
+}
+
+.flex2__item1 img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.flex2__item2{
+    width: 65%; 
+    align-self: center;
+    padding: 15px 40px 0; 
+}
+
+.flex2__item2 > div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.flex2__item2 > div p{
+    align-self: center;
+}
+
+.dlya__doma__flex3{
+    margin: 40px 0;
+}
+
+.dlya__doma__flex3 p{
+    margin: 0;
+    align-self: center;
+    width: 93%;
+}
+
+.okna__dlya__doma .flex4__item1{
+    width: 30%;
+    padding: 20px;
+    align-self: center;
+}
+
+.okna__dlya__doma .flex4__item2{
+    width: 70%;
+    align-self: center;
+    padding: 20px 30px;  
+}
+
+.dlya__doma__list{
+    background-color: $backgroundBoxColor;
+    padding: 40px 0;
+    margin: 20px 0;
+}
+
+.dlya__doma__flex5 > div{
+    width: 500px;
+    text-align: center;
+}
+
+.dlya__doma__flex5 > div img{
+    height: 157px;
+    width: auto;
+}
+
+.okna__dlya__doma ul > li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.okna__dlya__doma ul > li::before {
+    content: "";
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FF802C;
+}

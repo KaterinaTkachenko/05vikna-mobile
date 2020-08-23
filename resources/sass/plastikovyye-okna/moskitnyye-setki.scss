@@ -1,0 +1,44 @@
+.mosk__block2, .mosk__block3{
+    display: flex;
+}
+
+.mosk__block3{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mosk__block2{
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    padding-bottom: 30px;
+}
+
+.mosk__block2 h4{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mosk__block2__item1{
+    width: 30%;
+    align-self: center;
+    text-align: center;
+}
+
+.mosk__block2__item2{
+    width: 70%;
+}
+
+.mosk__block2 img, .mosk__block3 img{
+    width: auto;
+}
+
+.mosk__block3 > div{
+    width: 250px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.mosk__block3 > div img{
+    margin-bottom: 10px;
+}
