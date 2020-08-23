@@ -37658,6 +37658,7 @@ $(document).ready(function () {
 
   if ($(document).width() <= 375) {
     $('.vhod__dveri__flex1').removeClass('shadowBox');
+    $('.garantiya__flex1').removeClass('shadowBox');
   }
 });
 
