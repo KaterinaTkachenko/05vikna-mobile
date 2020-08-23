@@ -21,7 +21,6 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/o-nas', 'HomeController@about')->name('about');
 Route::get('/sertifikaty', 'HomeController@sertifikaty')->name('sertifikaty');
-Route::get('/dogovora', 'HomeController@dogovora')->name('dogovora');
 Route::get('/stati', 'HomeController@stati')->name('stati');
 Route::get('/otzyvy', 'HomeController@otzyvy')->name('otzyvy');
 

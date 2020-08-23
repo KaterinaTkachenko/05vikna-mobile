@@ -42,8 +42,7 @@
                     <li>
                         <a href="{{route('about')}}" class="header__menu__item">О нас</a>
                         <ul class="dropdown-content">
-                            <li><a href="{{route('sertifikaty')}}" class="dropdown-item">Сертификаты</a></li>
-                            <li><a href="{{route('dogovora')}}" class="dropdown-item">Договора</a></li>
+                            <li><a href="{{route('sertifikaty')}}" class="dropdown-item">Сертификаты</a></li>                            
                             <li><a href="{{route('stati')}}" class="dropdown-item">Статьи</a></li>
                             <li><a href="{{route('otzyvy')}}" class="dropdown-item">Отзывы</a></li>
                         </ul>

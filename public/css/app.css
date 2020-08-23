@@ -14627,6 +14627,18 @@ h4.dveri__flex2__title:hover {
   padding: 0px 50px;
 }
 
+.stati__item {
+  width: 40%;
+}
+
+.stati__item__date {
+  color: grey;
+}
+
+.stati__flex1 {
+  flex: auto;
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;

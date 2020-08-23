@@ -37,11 +37,6 @@ class HomeController extends Controller
         return view('o-nas.sertifikaty');
     }
 
-    public function dogovora()
-    {
-        return view('o-nas.dogovora');
-    }
-
     public function stati()
     {
         return view('o-nas.stati');

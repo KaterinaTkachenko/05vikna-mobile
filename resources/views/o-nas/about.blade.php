@@ -11,9 +11,6 @@
                     <a href="{{route('sertifikaty')}}">Сертификаты</a>
                 </li>
                 <li>
-                    <a href="{{route('dogovora')}}">Договора</a>
-                </li>
-                <li>
                     <a href="{{route('stati')}}">Статьи</a>
                 </li>
                 <li>

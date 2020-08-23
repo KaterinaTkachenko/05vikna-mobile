@@ -12,8 +12,7 @@
                     <i class="fa fa-chevron-down"></i>
                 </div>                
                 <ul class="dropdown-content hidden">
-                    <li><a href="{{route('sertifikaty')}}" class="dropdown-item">Сертификаты</a></li>
-                    <li><a href="{{route('dogovora')}}" class="dropdown-item">Договора</a></li>
+                    <li><a href="{{route('sertifikaty')}}" class="dropdown-item">Сертификаты</a></li>                    
                     <li><a href="{{route('stati')}}" class="dropdown-item">Статьи</a></li>
                     <li><a href="{{route('otzyvy')}}" class="dropdown-item">Отзывы</a></li>
                 </ul>
