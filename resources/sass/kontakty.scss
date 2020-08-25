@@ -1,0 +1,47 @@
+.kontakty__flex1 > div{
+    width: 200px;
+    text-align: center;
+    flex: auto;
+    padding: 0 20px;
+}
+
+.kontakty__flex1 > div img{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.kontakty__flex1 > div p{
+    text-align: center;
+}
+
+.kontakty__flex1__title{
+    font-size: 16px;
+    color: grey;
+}
+
+.kontakty__fluid {
+    background: $backgroundBoxColor;
+}
+
+.kontakty__form{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.kontakty__form > div{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#comment{
+    width: 100%;
+}
+
+.kontakty__form .btn-main{
+    width: 60%;
+}
+
+.kontakty__form > div{
+    width: 100%;
+}
+
