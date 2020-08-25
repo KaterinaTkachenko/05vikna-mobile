@@ -47,11 +47,6 @@ class HomeController extends Controller
         return view('o-nas.otzyvy');
     }
 
-    public function nashitseny()
-    {
-        return view('nashi-tseny.nashi-tseny');
-    }
-
     public function kalkulyatoronlayn()
     {
         return view('nashi-tseny.kalkulyator-onlayn');

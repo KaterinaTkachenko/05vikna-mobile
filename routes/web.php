@@ -25,7 +25,6 @@ Route::get('/stati', 'ArticleController@getArticles')->name('stati');
 Route::get('/stati/{slug}', 'ArticleController@getArticleInfo')->name('articleInfo');
 Route::get('/otzyvy', 'HomeController@otzyvy')->name('otzyvy');
 
-Route::get('/nashi-tseny', 'HomeController@nashitseny')->name('nashi-tseny');
 Route::get('/kalkulyator-onlayn', 'HomeController@kalkulyatoronlayn')->name('kalkulyator-onlayn');
 
 Route::get('/nashi-raboty', 'HomeController@nashiraboty')->name('nashi-raboty');

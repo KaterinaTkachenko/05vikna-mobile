@@ -135,7 +135,7 @@
                 </div>
 
                 <h2 style="margin: 40px 0 30px">Оригинальный уплотнитель Rehau - идеальная герметичность окна ПВХ</h2>
-                <div class="dlya__doma__flex4 d-flex flex-wrap justify-content-between">
+                <div class="dlya__doma__flex4 shadowBox d-flex flex-wrap justify-content-between">
                     <div class="flex4__item1">
                         <img src="../images/okna-dlya-doma/uplotnitel-v-oknakh.jpg" alt="">
                     </div>
@@ -146,7 +146,7 @@
                 </div>
 
                 <h2 style="margin: 40px 0 30px">Гарантия 10 лет на окна ПВХ</h2>
-                <div class="dlya__doma__flex4 d-flex flex-wrap justify-content-between" style="margin-bottom: 40px">
+                <div class="dlya__doma__flex4 shadowBox d-flex flex-wrap justify-content-between" style="margin-bottom: 40px">
                     <div class="flex4__item1 text-center">
                         <img src="../images/okna-dlya-doma/garantiya-na-okna-10-let.png" alt="" style="width: 200px;">
                     </div>

@@ -283,6 +283,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    .nashi_raboty_item{
+        width: 48% !important;
+    }
+
     .about__content::before {
         border-left: 0 !important;
     }
@@ -478,7 +482,24 @@
     }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+    .home__form__zamer input, .home__form__zamer .btn-main {
+        width: 100% !important;
+        margin-right: 0!important;
+    }
+
+    .home__form__zamer input{
+        margin-bottom: 15px;
+    }
+
+    .nashi_raboty_item{
+        width: 100% !important;
+    }
+
+    .stati__item{
+        width: 100% !important;
+    }
+
     .garantiya__title {
         font-size: 2rem !important;
      }
@@ -968,15 +989,6 @@
         top: 17px !important;
     }
 
-    .home__form__zamer input, .home__form__zamer .btn-main {
-        width: 100% !important;
-        margin-right: 0!important;
-    }
-
-    .home__form__zamer input{
-        margin-bottom: 15px;
-    }
-
     .home__form__zamer .fa-phone-alt {
         left: 13px !important;
         top: 17px !important;
@@ -1035,6 +1047,9 @@
 }
 
 @media screen and (max-width: 375px) {
+    .otzyvy{
+        padding: 0 15px !important;
+    }
     .garant_flex1__item1 {
         padding: 10px 0 0px !important;
     }

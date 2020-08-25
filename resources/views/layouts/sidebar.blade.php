@@ -19,7 +19,7 @@
             </li>
             <li>
                 <div class="d-flex justify-content-between">
-                    <a href="{{route('nashi-tseny')}}">Наши цены </a>
+                    <a href="{{route('kalkulyator-onlayn')}}">Наши цены </a>
                     <i class="fa fa-chevron-down"></i>
                 </div>
                 <ul class="dropdown-content hidden">

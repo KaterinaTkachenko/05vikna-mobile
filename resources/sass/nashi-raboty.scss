@@ -1,0 +1,46 @@
+.nashi_raboty_item{
+    width: 23%;
+    padding: 0px 0px 15px;
+    background: $backgroundBoxColor;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.nashi_raboty_item > div{
+    padding: 0 20px;
+}
+
+.nashi_raboty__flex1{
+    flex: auto;
+    margin-bottom: 40px;
+}
+
+.nashi_raboty .btn-main {
+    padding: 10px;
+    display: block;
+    margin: 20px 30px 0;
+    text-align: center;
+}
+
+.nashi_raboty .btn-main:hover {
+    border-color: $darkgreyColor;;
+    background-color: $darkgreyColor;;
+}
+
+.nashi_raboty_item p, .nashi_raboty_item h3{
+    text-align: left;
+}
+
+.nashi_raboty_item img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.nashi_raboty_item img, .nashi_raboty_item p, .nashi_raboty_item h3{
+    margin-bottom: 15px;
+}
+
+.nashi_raboty_item a:hover h3{
+    color: $orangeColor;
+}

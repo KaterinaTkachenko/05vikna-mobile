@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="{{route('nashi-tseny')}}" class="header__menu__item">Наши цены</a>
+                        <a href="{{route('kalkulyator-onlayn')}}" class="header__menu__item">Наши цены</a>
                         <ul class="dropdown-content">
                             <li><a href="{{route('kalkulyator-onlayn')}}" class="dropdown-item">Калькулятор онлайн</a></li>
                         </ul>
