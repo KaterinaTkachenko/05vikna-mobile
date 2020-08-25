@@ -1,0 +1,33 @@
+.aktsii__item{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.aktsii__caption{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    color: #fff;
+    font-size: 24px;
+    width: 30%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.aktsii__caption h1{    
+    font-weight: bold;
+}
+
+.aktsii__caption p{
+    text-align: left;
+}
+
+.aktsii__item .home__form{
+    bottom: 10px;
+    left: 35px;
+    margin-right: 10px;
+}
+
+.home__form > div{
+    width: 31%;
+}

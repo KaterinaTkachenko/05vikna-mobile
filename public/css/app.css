@@ -11412,6 +11412,20 @@ footer {
 }
 
 @media screen and (max-width: 1199px) {
+  .aktsii__caption {
+    width: 40% !important;
+    left: 10px !important;
+    top: 10px !important;
+  }
+
+  .aktsii__caption p {
+    font-size: 1rem !important;
+  }
+
+  .aktsii__item .home__form {
+    left: 10px !important;
+  }
+
   .garantiya__title {
     font-size: 2rem !important;
   }
@@ -11559,6 +11573,19 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .aktsii__title {
+    font-size: 2rem;
+  }
+
+  .rabotaInfo__flex1 > div {
+    width: 100% !important;
+  }
+
+  .rabotaInfo__flex1__item1 img {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px !important;
+  }
+
   .nashi_raboty_item {
     width: 48% !important;
   }
@@ -12354,6 +12381,11 @@ footer {
 @media screen and (max-width: 375px) {
   .otzyvy {
     padding: 0 15px !important;
+  }
+
+  .rabotaInfo__flex1 {
+    padding: 0 !important;
+    margin-bottom: 20px !important;
   }
 
   .garant_flex1__item1 {
@@ -14445,7 +14477,8 @@ h4.dveri__flex2__title:hover {
 .vyzov_zamer ul > li,
 .ustanovka ul > li,
 .dostavka ul > li,
-.garantiya ul > li {
+.garantiya ul > li,
+.rabotaInfo ul > li {
   position: relative;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -14455,7 +14488,8 @@ h4.dveri__flex2__title:hover {
 .vyzov_zamer ul > li::before,
 .ustanovka ul > li::before,
 .dostavka ul > li::before,
-.garantiya ul > li::before {
+.garantiya ul > li::before,
+.rabotaInfo ul > li::before {
   content: "";
   position: absolute;
   top: 0.6em;
@@ -14469,7 +14503,8 @@ h4.dveri__flex2__title:hover {
 
 .ustanovka ul > li,
 .dostavka ul > li,
-.garantiya ul > li {
+.garantiya ul > li,
+.rabotaInfo ul > li {
   font-size: 1.25rem;
 }
 
@@ -14717,6 +14752,53 @@ h4.dveri__flex2__title:hover {
 
 .nashi_raboty_item a:hover h3 {
   color: #FF802C;
+}
+
+.rabotaInfo__flex1__item1 {
+  width: 40%;
+}
+
+.rabotaInfo__flex1__item2 {
+  width: 57%;
+}
+
+.rabotaInfo__flex1__item1 img {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.aktsii__item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.aktsii__caption {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  color: #fff;
+  font-size: 24px;
+  width: 30%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.aktsii__caption h1 {
+  font-weight: bold;
+}
+
+.aktsii__caption p {
+  text-align: left;
+}
+
+.aktsii__item .home__form {
+  bottom: 10px;
+  left: 35px;
+  margin-right: 10px;
+}
+
+.home__form > div {
+  width: 31%;
 }
 
 body {

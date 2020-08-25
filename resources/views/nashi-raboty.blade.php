@@ -6,28 +6,30 @@
             <h1 style="margin: 50px 0 20px">Примеры наших работ</h1>
             <div class="nashi_raboty__flex1 d-flex flex-wrap justify-content-around">
                 <div class="nashi_raboty_item">
-                    <a href=""><img src="../images/nashi-raboty/1.png" alt="Наши работы">
-                    <div><h3>Замена окон на пластиковые в доме П44</h3></a>
-                    <p>Адрес Россия, Москва, Курганская улица, 6</p>
-                    <a href="" class="btn-main active">Подробнее</a></div>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}">
+                    <img src="../images/nashi-raboty/1.png" alt="Наши работы">
+                    <div><h3>Остекление и отделка балкона</h3></a>
+                        <p>Адрес Россия, Москва, Курганская улица, 6</p>
+                        <a href="{{route('rabotaInfo', 'zamena-okon')}}" class="btn-main active">Подробнее</a>
+                    </div>
                 </div>
                 <div class="nashi_raboty_item">
-                    <a href=""><img src="../images/nashi-raboty/1.png" alt="Наши работы">
-                        <div><h3>Замена окон на пластиковые в доме П44</h3></a>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}"><img src="../images/nashi-raboty/1.png" alt="Наши работы">
+                        <div><h3>Остекление и отделка балкона</h3></a>
                     <p>Адрес Россия, Москва, Курганская улица, 6</p>
-                    <a href="" class="btn-main active">Подробнее</a></div>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}" class="btn-main active">Подробнее</a></div>
                 </div>
                 <div class="nashi_raboty_item">
-                    <a href=""><img src="../images/nashi-raboty/1.png" alt="Наши работы">
-                        <div><h3>Замена окон на пластиковые в доме П44</h3></a>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}"><img src="../images/nashi-raboty/1.png" alt="Наши работы">
+                        <div><h3>Остекление и отделка балкона</h3></a>
                     <p>Адрес Россия, Москва, Курганская улица, 6</p>
-                    <a href="" class="btn-main active">Подробнее</a></div>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}" class="btn-main active">Подробнее</a></div>
                 </div>
                 <div class="nashi_raboty_item">
-                    <a href=""><img src="../images/nashi-raboty/1.png" alt="Наши работы">
-                        <div><h3>Замена окон на пластиковые в доме П44</h3></a>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}"><img src="../images/nashi-raboty/1.png" alt="Наши работы">
+                        <div><h3>Остекление и отделка балкона</h3></a>
                     <p>Адрес Россия, Москва, Курганская улица, 6</p>
-                    <a href="" class="btn-main active">Подробнее</a></div>
+                    <a href="{{route('rabotaInfo', 'zamena-okon')}}" class="btn-main active">Подробнее</a></div>
                 </div>
             </div>
         </div>

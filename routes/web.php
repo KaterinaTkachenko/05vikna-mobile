@@ -28,6 +28,7 @@ Route::get('/otzyvy', 'HomeController@otzyvy')->name('otzyvy');
 Route::get('/kalkulyator-onlayn', 'HomeController@kalkulyatoronlayn')->name('kalkulyator-onlayn');
 
 Route::get('/nashi-raboty', 'HomeController@nashiraboty')->name('nashi-raboty');
+Route::get('/nashi-raboty/{slug}', 'HomeController@nashirabotyInfo')->name('rabotaInfo');
 Route::get('/aktsii-i-skidki', 'HomeController@aktsii')->name('aktsii-i-skidki');
 
 Route::group(['prefix' => 'kontakty'], function () {

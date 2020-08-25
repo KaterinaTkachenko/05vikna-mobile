@@ -1,11 +1,13 @@
-.uslugi ul > li, .vyzov_zamer ul > li, .ustanovka ul > li, .dostavka ul > li, .garantiya ul > li{
+.uslugi ul > li, .vyzov_zamer ul > li, .ustanovka ul > li, .dostavka ul > li, .garantiya ul > li,
+.rabotaInfo ul > li{
     position: relative;
     padding-left: 20px;
     padding-bottom: 10px;
 }
 
 .uslugi ul > li::before, .vyzov_zamer ul > li::before
-, .ustanovka ul > li::before, .dostavka ul > li::before, .garantiya ul > li::before{
+, .ustanovka ul > li::before, .dostavka ul > li::before, .garantiya ul > li::before
+,.rabotaInfo ul > li::before{
     content: "";
     position: absolute;
     top: 0.6em;
@@ -17,7 +19,7 @@
     background-color: #FF802C;
 }
 
-.ustanovka ul > li, .dostavka ul > li, .garantiya ul > li{
+.ustanovka ul > li, .dostavka ul > li, .garantiya ul > li, .rabotaInfo ul > li{
     font-size: 1.25rem;
 }
 

@@ -57,6 +57,11 @@ class HomeController extends Controller
         return view('nashi-raboty');
     }
 
+    public function nashirabotyInfo()
+    {
+        return view('rabotaInfo');
+    }
+
     public function aktsii()
     {
         return view('aktsii-i-skidki');
