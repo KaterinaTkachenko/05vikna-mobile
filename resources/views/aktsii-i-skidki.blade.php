@@ -3,14 +3,14 @@
 <div class="container aktsii">
     <div class="row">
         <div class="col-lg-12">
-            <h1 style="margin: 50px 0 20px">Акции и скидки на пластиковые окна</h1>
+            <h1 style="margin: 40px 0">Акции и скидки на пластиковые окна</h1>
             <div class="aktsii__item">
-                <img src="../images/slider1.jpg" alt="slider1">
                 <div class="aktsii__caption">
                     <h1 class="aktsii__title">СКИДКА 35% НА ОКНА ПВХ</h1>
                     <p>+ подарок, при покупке окон!</p>
                 </div>
-                <div class="home__form d-flex justify-content-between align-items-center">
+                <img src="../images/slider1.jpg" alt="slider1">                
+                <div class="home__form d-flex justify-content-between align-items-center flex-wrap">
                     <div>
                         <i class="fa fa-user"></i>
                         <input type="text" name="name" id="username" class="form-control user" placeholder="Имя">
@@ -27,12 +27,12 @@
                 </div>
             </div>
             <div class="aktsii__item">
-                <img src="../images/slider2.png" alt="slider2">
                 <div class="aktsii__caption">
                     <h1 class="aktsii__title">СКИДКА 30% НА ОСТЕКЛЕНИЕ БАЛКОНОВ</h1>
                     <p>энергосберегающий стеклопакет в подарок!</p>
                 </div>
-                <div class="home__form d-flex justify-content-between align-items-center">
+                <img src="../images/slider2.png" alt="slider2">            
+                <div class="home__form d-flex justify-content-between align-items-center flex-wrap">
                     <div>
                         <i class="fa fa-user"></i>
                         <input type="text" name="name" id="username" class="form-control user" placeholder="Имя">
@@ -49,12 +49,12 @@
                 </div>
             </div>
             <div class="aktsii__item">
-                <img src="../images/slider3.jpg" alt="slider3">
                 <div class="aktsii__caption">
                     <h1 class="aktsii__title">ДОПОЛНИТЕЛЬНАЯ СКИДКА 3%</h1>
                     <p>при оформлении заказа ОНЛАЙН!</p>
                 </div>
-                <div class="home__form d-flex justify-content-between align-items-center">
+                <img src="../images/slider3.jpg" alt="slider3">                
+                <div class="home__form d-flex justify-content-between align-items-center flex-wrap">
                     <div>
                         <i class="fa fa-user"></i>
                         <input type="text" name="name" id="username" class="form-control user" placeholder="Имя">

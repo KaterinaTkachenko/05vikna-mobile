@@ -11482,7 +11482,7 @@ footer {
     width: 100%;
   }
 
-  .home__form {
+  #home.home__form {
     bottom: 20px !important;
   }
 
@@ -11728,9 +11728,16 @@ footer {
   }
 
   .home__form .fa-user,
-  .home__form__zamer .fa-user,
-  .home__form .fa-phone-alt {
+  .home__form__zamer .fa-user {
     left: 12px !important;
+  }
+
+  .home__form .fa-phone-alt {
+    left: 295px !important;
+  }
+
+  .aktsii__item .fa-phone-alt {
+    left: 246px !important;
   }
 }
 
@@ -11747,7 +11754,7 @@ footer {
 }
 
 @media screen and (max-width: 895px) {
-  .home__form {
+  #home .home__form {
     bottom: 40px !important;
   }
 
@@ -11763,8 +11770,8 @@ footer {
 }
 
 @media screen and (max-width: 870px) {
-  #username,
-  .home__form .fa-user {
+  #home #username,
+  #home .home__form .fa-user {
     display: none;
   }
 
@@ -11794,6 +11801,36 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .aktsii__item .home__form,
+  .aktsii__caption {
+    position: relative !important;
+    width: 100% !important;
+    left: 0px !important;
+  }
+
+  .aktsii__caption {
+    color: #242424 !important;
+  }
+
+  .aktsii__item .home__form {
+    margin: 10px 0 !important;
+    bottom: 0 !important;
+  }
+
+  .aktsii__item .home__form > div:first-child,
+  .aktsii__item .home__form > div:nth-child(2) {
+    width: 48% !important;
+  }
+
+  .aktsii__item .home__form > div:last-child {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+
+  .aktsii__item .fa-phone-alt {
+    left: 370px !important;
+  }
+
   .home__form__zamer input,
   .home__form__zamer .btn-main {
     width: 100% !important;
@@ -11986,7 +12023,7 @@ footer {
     height: auto !important;
   }
 
-  .home__form {
+  #home .home__form {
     bottom: -5px !important;
   }
 
@@ -12089,6 +12126,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .aktsii__item .fa-phone-alt {
+    left: 277px !important;
+  }
+}
+
 @media screen and (max-width: 700px) {
   #home .carousel-caption {
     top: -12px !important;
@@ -12123,16 +12166,16 @@ footer {
     font-size: 20px !important;
   }
 
-  .home__form input,
-  .home__form__zamer input,
-  .home__form .btn-main,
+  #home.home__form input,
+  #home.home__form__zamer input,
+  #home.home__form .btn-main,
   #header__responsive .btn-main,
   #header__responsive .btn-zamer {
     font-size: 14px !important;
   }
 
-  .home__form .fa-user,
-  .home__form .fa-phone-alt,
+  #home.home__form .fa-user,
+  #home.home__form .fa-phone-alt,
   .home__form__zamer .fa-user,
   .home__form__zamer .fa-phone-alt {
     top: 12px !important;
@@ -12150,13 +12193,17 @@ footer {
 }
 
 @media screen and (max-width: 558px) {
-  .home__form,
+  #home.home__form,
   #home .carousel-caption {
     left: 25px !important;
   }
 }
 
 @media screen and (max-width: 528px) {
+  .aktsii__item .fa-phone-alt {
+    left: 269px !important;
+  }
+
   .responsBtnsDiv .btn-main {
     display: block;
     margin-bottom: 10px;
@@ -12185,6 +12232,20 @@ footer {
   #header__responsive .btn-main,
   #header__responsive .btn-zamer {
     font-size: 14px;
+  }
+
+  .aktsii__item .home__form > div:first-child {
+    margin-bottom: 10px;
+  }
+
+  .aktsii__item .home__form > div:first-child,
+  .aktsii__item .home__form > div:nth-child(2) {
+    width: 100% !important;
+  }
+
+  .aktsii__item .fa-phone-alt {
+    left: 10px !important;
+    top: 76px !important;
   }
 }
 
@@ -12282,7 +12343,7 @@ footer {
     padding: 0px 0px 15px 40px !important;
   }
 
-  .home__form .fa-phone-alt {
+  #home.home__form .fa-phone-alt {
     left: 13px !important;
     top: 17px !important;
   }
@@ -12296,11 +12357,11 @@ footer {
     width: 45% !important;
   }
 
-  .home__form {
+  #home.home__form {
     bottom: -80px !important;
   }
 
-  .home__form {
+  #home.home__form {
     left: 10px !important;
   }
 
@@ -12308,11 +12369,11 @@ footer {
     margin-top: 80px !important;
   }
 
-  .home__form input {
+  #home.home__form input {
     margin-right: 5px;
   }
 
-  .home__form .fa-user {
+  #home.home__form .fa-user {
     top: 17px !important;
   }
 
@@ -12345,16 +12406,16 @@ footer {
     padding: 1rem !important;
   }
 
-  .home__form div:first-child {
+  #home.home__form div:first-child {
     flex-direction: column;
   }
 
-  .home__form {
+  #home.home__form {
     left: 75px !important;
     bottom: -135px !important;
   }
 
-  .home__form input {
+  #home.home__form input {
     margin-right: 0px !important;
     margin-bottom: 15px;
   }
@@ -12432,13 +12493,13 @@ footer {
     margin-left: 10px;
   }
 
-  .home__form {
+  #home.home__form {
     left: 60px !important;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .home__form {
+  #home.home__form {
     left: 50px !important;
   }
 
@@ -14794,10 +14855,10 @@ h4.dveri__flex2__title:hover {
 .aktsii__item .home__form {
   bottom: 10px;
   left: 35px;
-  margin-right: 10px;
+  margin: 0 10px 10px 0;
 }
 
-.home__form > div {
+.aktsii__item .home__form > div {
   width: 31%;
 }
 
