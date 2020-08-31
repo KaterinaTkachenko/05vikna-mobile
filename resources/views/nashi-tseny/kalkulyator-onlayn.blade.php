@@ -6,7 +6,7 @@
             <h1>Калькулятор пластиковых окон</h1>
         </div>             
         {{-- <div class="row calc d-flex "> --}}
-        <div class="l-column col-6 col-lg-6 col-md-6 col-sm-6">
+        <div class="l-column col-12 col-lg-6 col-md-12 col-sm-12">
             <div class="calc__box">
                 <h3>Что рассчитать?</h3>
                 <div class="calc__box1 d-flex justify-content-between">
@@ -44,7 +44,7 @@
             </div>            
             <div class="calc__box calc__box2">
                 <h3>Дополнительные опции</h3>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between calc__choose__params">
                     <label>Тип профиля</label>
                     <select size="1" class="select2">
                         <option value="REHAU euro 60">REHAU euro 60</option>
@@ -54,7 +54,7 @@
                         <option value="REHAU Geneo">REHAU Geneo</option>
                     </select>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between calc__choose__params">
                     <label>Стеклопакет</label>
                     <select size="1" class="select3">
                         <option value="Стандартный">Стандартный</option>
@@ -63,7 +63,7 @@
                         <option value="Шумозащитный">Шумозащитный</option>
                     </select>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between calc__choose__params">
                     <label>Ширина подоконника</label>
                     <select size="1" class="select4">
                         <option value="Нет">Нет</option>
@@ -77,7 +77,7 @@
                         <option value="500 мм">500 мм</option>
                     </select>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between calc__choose__params">
                     <label>Ширина отлива</label>
                     <select size="1" class="select5">
                         <option value="Нет">Нет</option>
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div class="r-column col-6 col-lg-6 col-md-6 col-sm-6">
+        <div class="r-column col-12 col-lg-6 col-md-12 col-sm-12">
             <div class="calc__box">
                 <h3>Задайте параметры</h3>
                 <div class="b-helpinfo">
@@ -99,23 +99,23 @@
                    <div class="slideshow-container">                        
                         <div class="mySlides1" onclick="plusSlides(1,0)">
                           <img src="../../images/leaf-x.png">
-                          <div class="wincalc-layout-label" label-id="leaf_left" style="position: absolute; left: 10px; top: 150px; width: 80px; height: 20px;">Глухая створка</div>
+                          <div class="wincalc-layout-label" label-id="leaf_left" >Глухая створка</div>
                         </div>          
                         <div class="mySlides1" onclick="plusSlides(1,0)">
                           <img src="../../images/leaf-l.png">
-                          <div class="wincalc-layout-label" label-id="leaf_left" style="position: absolute; left: 10px; top: 150px; width: 80px; height: 20px;">Повортная влево</div>
+                          <div class="wincalc-layout-label" label-id="leaf_left" >Повортная влево</div>
                         </div>                
                         <div class="mySlides1" onclick="plusSlides(1,0)">
                           <img src="../../images/leaf-lu.png">
-                          <div class="wincalc-layout-label" label-id="leaf" style="position: absolute; left: 10px; top: 150px; width: 80px; height: 20px;">Повортно/откидная левая</div>
+                          <div class="wincalc-layout-label" label-id="leaf" >Повортно/откидная левая</div>
                         </div>
                         <div class="mySlides1" onclick="plusSlides(1,0)">
                             <img src="../images/leaf-r.png" alt="slider4">
-                            <div class="wincalc-layout-label" label-id="leaf" style="position: absolute; left: 10px; top: 150px; width: 80px; height: 20px;">Повортная вправо</div>                              
+                            <div class="wincalc-layout-label" label-id="leaf" >Повортная вправо</div>                              
                         </div>
                         <div class="mySlides1" onclick="plusSlides(1,0)">
                             <img src="../images/leaf-ru.png" alt="slider5">
-                            <div class="wincalc-layout-label" label-id="leaf" style="position: absolute; left: 10px; top: 150px; width: 80px; height: 20px;">Повортная/откидная правая</div>                               
+                            <div class="wincalc-layout-label" label-id="leaf" >Повортная/откидная правая</div>                               
                         </div>
 
                         <div class="sizer-up" title="Ширина" style="position: absolute; left: 1px; top: -13px; width: 98px; height: 12px;"><div class="sizer-up-line" style="position: absolute; left: 0px; top: 5px; width: 98px;"></div><div class="sizer-up-arrow1" style="position: absolute; left: 0px; top: 0px;"></div><div class="sizer-up-arrow2" style="position: absolute; left: 84px; top: 0px;"></div><input type="text" name="width" maxlength="4" value="700" style="position: absolute; left: 21px; top: -13.5px;"></div>
@@ -127,7 +127,7 @@
             <div class="calc__box">
                 <h3>Введите контактные данные</h3>
                 <div>
-                    <div class="form-group d-flex justify-content-between">
+                    <div class="d-flex justify-content-between calc__box__form">
                         <div class="wrapper">
                             <i class="fa fa-user"></i>
                             <input type="text" name="name" id="username" class="form-control" placeholder="Имя">
@@ -137,7 +137,7 @@
                             <input type="tel" name="phone" id="phone_calc" class="phone form-control" placeholder="Телефон" required>
                         </div>
                     </div>
-                    <div class="form-group text-center" style="margin-top: 20px">
+                    <div class="text-center calc__btnDiv">
                         <button class="btn-main submitBtn"
                             onclick="submitForm('Калькулятор онлайн', 'Форма', '#phone_calc')">Рассчитать</button>                                                    
                     </div>                    

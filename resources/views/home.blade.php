@@ -32,18 +32,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="home__form">
-                    <div class="form-group d-flex justify-content-between align-items-center">
+                <div class="aktsii__item">
+                <div class="home__form d-flex justify-content-between align-items-center flex-wrap">
+                    <div>
                         <i class="fa fa-user"></i>
-                        <input type="text" name="name" id="username" class="form-control" placeholder="Имя">
-
-                        <i class="fas fa-phone-alt"></i>
-                        <input type="tel" name="phone" id="phone_home1" class="phone form-control" placeholder="Телефон"
-                            required>
-
-                        <button class="btn-main submitBtn" onclick="submitForm('Главная страница', 'Слайдер', '#phone_home1')">Получить
-                            скидку</button>
+                        <input type="text" name="name" id="username" class="form-control user" placeholder="Имя">
                     </div>
+
+                    <div>
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="tel" name="phone" id="phone_aktsii3" class="phone form-control" placeholder="Телефон" required>
+                    </div>
+
+                    <div>
+                        <button class="btn-main submitBtn" onclick="submitForm('Акции и скидки', 'Форма', '#phone_aktsii3')">Получить скидку</button>
+                    </div>
+                </div>
                 </div>
                 <div class="arrBlock">
                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
