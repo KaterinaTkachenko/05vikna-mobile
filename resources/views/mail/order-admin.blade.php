@@ -15,6 +15,18 @@
 			<td style="border: 1px solid black; padding: 15px; text-align: left;">Телефон:</td>
 			<td style="border: 1px solid black; padding: 15px; text-align: left;">{{$request['phone']}}</td>
 		</tr>
+		@if($request['page'])
+			<tr>
+				<td style="border: 1px solid black; padding: 15px; text-align: left;">Страница:</td>
+				<td style="border: 1px solid black; padding: 15px; text-align: left;">{{$request['page']}}</td>
+			</tr>
+		@endif
+		@if($request['widget'])
+			<tr>
+				<td style="border: 1px solid black; padding: 15px; text-align: left;">Виджет:</td>
+				<td style="border: 1px solid black; padding: 15px; text-align: left;">{{$request['widget']}}</td>
+			</tr>
+		@endif	
 		@if($request['select1'] != 'undefined' && isset($request['select1']))
 			<tr>
 				<td rowspan = "2" style="border: 1px solid black; padding: 15px; text-align: left;">Что рассчитать:</td>

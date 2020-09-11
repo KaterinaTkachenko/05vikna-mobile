@@ -41,11 +41,11 @@
 
                     <div>
                         <i class="fas fa-phone-alt"></i>
-                        <input type="tel" name="phone" id="phone_aktsii3" class="phone form-control" placeholder="Телефон" required>
+                        <input type="tel" name="phone" id="phone_slider" class="phone form-control" placeholder="Телефон" required>
                     </div>
 
                     <div>
-                        <button class="btn-main submitBtn" onclick="submitForm('Акции и скидки', 'Форма', '#phone_aktsii3')">Получить скидку</button>
+                        <button class="btn-main submitBtn" onclick="submitForm('Главная', 'Слайдер', '#phone_slider')">Получить скидку</button>
                     </div>
                 </div>
                 </div>
@@ -165,7 +165,7 @@
                 <img src="../images/plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-i-glukhaya-stvorka-dver.jpg" alt="plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-i-glukhaya-stvorka-dver" style="width:100%">
                 <h4>Балконный блок <br> 1460×1420 + 700×2160</h4>
                 <p>Rehau E60 <span class="orangeColor">4135</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут." data-page="Главная страница">Заказать</button>
             </div>
             <div>
                 <img src="../images/plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-stvorka-dver.jpg" alt="plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-stvorka-dver" style="height: 304px;">

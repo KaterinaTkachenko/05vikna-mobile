@@ -208,17 +208,17 @@
             }
         });
 
-        // $('#modal-zamer').on('hidden.bs.modal', function () {
-        //     location.reload();
-        // });
+        $('#modal-zamer').on('hidden.bs.modal', function () {
+            location.reload();
+        });
 
-        // $('#modal-ok').on('hidden.bs.modal', function () {
-        //     location.reload();
-        // });
+        $('#modal-ok').on('hidden.bs.modal', function () {
+            location.reload();
+        });
 
-        // $('#modal-call').on('hidden.bs.modal', function () {
-        //     location.reload();
-        // });
+        $('#modal-call').on('hidden.bs.modal', function () {
+            location.reload();
+        });
 
         var slideIndex = [1,1,1,1];
         var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"];

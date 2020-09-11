@@ -11615,6 +11615,16 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .dlya__doma__flex2 .flex2__item1,
+  .dlya__doma__flex2 .flex2__item2 {
+    width: 100% !important;
+  }
+
+  .flex2__item1 img {
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 8px;
+  }
+
   .sizer-down31 {
     left: 156px !important;
   }

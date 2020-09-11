@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-lg-12 form-group text-center" style="margin-top: 20px">
-                <button class="btn-main submitBtn" onclick="submitModal('Шапка сайта', 'Кнопка', '#phone-modal', '#modal-zamer')">Отправить заявку</button>                  
+                <button class="btn-main submitBtn" onclick="submitModal('Главная страница', 'Кнопка', '#phone-modal', '#modal-zamer')">Отправить заявку</button>                  
             </div>
         </div>      
       </div>

@@ -37,6 +37,8 @@ class LeadController extends Controller
             $userData = array(                
                 "phone" => $request->phone,
                 "username"=> $request->username,
+                "page"=> $request->page,
+                "widget"=> $request->widget,
                 "select1" => $request->select1, 
                 "select2" => $request->select2, 
                 "select3" => $request->select3, 
