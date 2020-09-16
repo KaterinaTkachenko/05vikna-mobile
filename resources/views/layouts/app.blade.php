@@ -63,42 +63,45 @@
 
         function submitForm(pageName, widget, phoneId) {
             var phone = $(phoneId).val();
-            var username = $("#username").val();
-            var select1 = $('.select1').val();
-            var select2 = $('.select2').val();
-            var select3 = $('.select3').val();
-            var select4 = $('.select4').val();
-            var select5 = $('.select5').val();
-            var sectionCount;
-            if(!$('.wins').hasClass('hidden'))
-                sectionCount = $('.wins .calc_active').attr('data-name');
-            else{
-                sectionCount = $('.doors .calc_doors_active').attr('data-name');
-            }
+            var username = $('#username').val();
             var section1, section2, section3, section4;
-            $(".mySlides1").each(function(){
-                if($(this).css("display")=="block"){
-                    section1 = ($(this).find('div').html());
+            if($(".mySlides1")){
+                var select1 = $('.select1').val();
+                var select2 = $('.select2').val();
+                var select3 = $('.select3').val();
+                var select4 = $('.select4').val();
+                var select5 = $('.select5').val();
+                var sectionCount;
+                if(!$('.wins').hasClass('hidden'))
+                    sectionCount = $('.wins .calc_active').attr('data-name');
+                else{
+                    sectionCount = $('.doors .calc_doors_active').attr('data-name');
                 }
-            });
 
-            $(".mySlides2").each(function(){
-                if($(this).css("display")=="block"){
-                    section2 = ($(this).find('div').html());
-                }
-            });
+                $(".mySlides1").each(function(){
+                    if($(this).css("display")=="block"){
+                        section1 = ($(this).find('div').html());
+                    }
+                });
 
-            $(".mySlides3").each(function(){
-                if($(this).css("display")=="block"){
-                    section3 = ($(this).find('div').html());
-                }
-            });
+                $(".mySlides2").each(function(){
+                    if($(this).css("display")=="block"){
+                        section2 = ($(this).find('div').html());
+                    }
+                });
 
-            $(".mySlides4").each(function(){
-                if($(this).css("display")=="block"){
-                    section4 = ($(this).find('div').html());
-                }
-            });
+                $(".mySlides3").each(function(){
+                    if($(this).css("display")=="block"){
+                        section3 = ($(this).find('div').html());
+                    }
+                });
+
+                $(".mySlides4").each(function(){
+                    if($(this).css("display")=="block"){
+                        section4 = ($(this).find('div').html());
+                    }
+                });
+            }
 
             if (phone.trim() == "") {
                 $(phoneId).addClass("is-invalid");

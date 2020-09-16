@@ -33,10 +33,11 @@
 <div class="container-fluid kontakty__fluid">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 p-lg-5 p-2 mb-lg-5 m-auto">            
-            <form action="" method="POST" class="kontakty__form">
+            {{-- <form action="" method="POST" class="kontakty__form"> --}}
+            <div class="kontakty__form">
                 <h2 style="margin: 0 0 30px">Свяжитесь с нами</h2>
                 <div class="form-input">
-                    <input type="text" name="name" class="form-control" placeholder="Имя">
+                    <input type="text" name="name" id="username" class="form-control" placeholder="Имя">
                 </div>
                 <div class="form-input">
                     <input type="tel" name="phone" id="phone_kontakty" class="phone form-control" placeholder="Телефон*"
@@ -50,7 +51,8 @@
                     <button class="btn-main submitBtn"
                         onclick="submitForm('Контакты', 'Форма', '#phone_kontakty')">Отправить</button>
                 </div>
-            </form>
+            </div>
+            {{-- </form> --}}
         </div>
     </div>
 </div>
