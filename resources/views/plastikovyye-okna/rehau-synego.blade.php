@@ -2,9 +2,8 @@
 @section('main')
 <div class="container rehau_synego">
     <div class="row">
+        <h1 style="margin: 40px 0 50px">САМЫЕ ТЕПЛЫЕ ОКНА - REHAU SYNEGO</h1>
         <div class="col-lg-12 rehau60_catalog">
-            <h1 style="margin: 40px 0 50px">СОВРЕМЕННЫЙ СТАНДАРТ ОКОН - ОКНА REHAU EURO 70</h1>
-            
             <div class="catalog__parambox">
                 <div class="catalogbox__param__value">
                     Рама 7 камер, створка 6 камер (80мм)

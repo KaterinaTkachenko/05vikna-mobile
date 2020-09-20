@@ -52,6 +52,11 @@
     <script src="{{ asset('js/jquery.maskedinput.js') }}"></script>    
     
     <script>
+        function closeBg(e, elem){
+            e.preventDefault();
+            elem.parentNode.parentNode.remove();
+        }
+
         $(".phone").mask("+38 (099) 999-99-99", {
             completed: function(){
               $(".phone").removeClass('is-invalid');
