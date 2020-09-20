@@ -11272,6 +11272,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 1360px) {
+  #home .aktsii__item .fa-phone-alt {
+    left: 355px !important;
+  }
+}
+
 @media screen and (max-width: 1296px) {
   .menu {
     justify-content: space-between !important;
@@ -11841,6 +11847,12 @@ footer {
 
   .home__form__zamer .fa-user {
     left: 12px !important;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  #home .aktsii__item .fa-phone-alt {
+    left: 525px !important;
   }
 }
 
@@ -13785,6 +13797,10 @@ i.fa-user,
   left: 343px;
 }
 
+.home__form .fa-phone-alt {
+  margin-left: 10px;
+}
+
 .home__form .btn-main,
 .home__form__zamer .btn-main {
   padding: 16px;
@@ -14530,7 +14546,7 @@ i.fa-user,
 
 .rehau60 .fa-plus-circle,
 .rehau70 .fa-plus-circle,
-.catalog__content a {
+.catalog__content {
   font-size: 24px;
 }
 
@@ -14833,6 +14849,10 @@ i.fa-user,
 
 .derev__serii img {
   width: 200px;
+}
+
+.derev__serii p {
+  text-align: left;
 }
 
 .derev__serii > div {

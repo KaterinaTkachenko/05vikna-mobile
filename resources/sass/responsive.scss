@@ -4,6 +4,12 @@
     }
 }
 
+@media screen and (max-width: 1360px) {
+    #home .aktsii__item .fa-phone-alt {
+        left: 355px !important;
+    }
+}
+
 @media screen and (max-width: 1296px) {
     .menu {
         justify-content: space-between !important;
@@ -566,6 +572,11 @@
     }
 }
 
+@media screen and (max-width: 970px){
+    #home .aktsii__item .fa-phone-alt {
+        left: 525px !important;
+    }
+}
 @media screen and (max-width: 955px){
     #home .carousel-control-prev {
         left: 70px !important;

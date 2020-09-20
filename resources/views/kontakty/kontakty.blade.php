@@ -17,9 +17,9 @@
                     <p>+38(097) 111 11 11</p>                    
                 </div>
                 <div>
-                    <img style="padding-bottom: 10px;" src="../../images/kontakty/contacts-icon-03.png" alt="" class="kontakty__email">
+                    <img style="height: 62px; width: auto;" src="../../images/kontakty/contacts-icon-03.png" alt="" class="kontakty__email">
                     <p class="kontakty__flex1__title">E-mail</p>
-                    <p>viknamobile@ gmail.com</p>                    
+                    <p>viknamobile@<br>gmail.com</p>                    
                 </div>
                 <div>
                     <img src="../../images/kontakty/contacts-icon-04.png" alt="">
