@@ -7,6 +7,7 @@ use Illuminate\Contracts\Events\Dispatcher;
 use JeroenNoten\LaravelAdminLte\Events\BuildingMenu;
 use App\Lead;
 use App\Article;
+use App\Work;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -52,18 +53,18 @@ class AppServiceProvider extends ServiceProvider
                     'url' => 'admin/articles/create',                    
                 ]
             );
-            // $event->menu->add('ОТЗЫВЫ');
-            // $event->menu->add(                
-            //     [
-            //         'text' => 'Список отзывов',
-            //         'url' => 'admin/reviews',
-            //         'label' => Review::all()->count(),
-            //     ],
-            //     [
-            //         'text' => 'Добавить отзыв',
-            //         'url' => 'admin/reviews/create',                    
-            //     ]
-            // );             
+            $event->menu->add('РАБОТЫ');
+            $event->menu->add(                
+                [
+                    'text' => 'Список работ',
+                    'url' => 'admin/works',
+                    'label' => Work::all()->count(),
+                ],
+                [
+                    'text' => 'Добавить работу',
+                    'url' => 'admin/works/create',                    
+                ]
+            );             
         });
     }
 }

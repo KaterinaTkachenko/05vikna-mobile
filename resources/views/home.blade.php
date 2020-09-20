@@ -40,7 +40,7 @@
                     </div>
 
                     <div>
-                        <i class="fas fa-phone-alt"></i>
+                        {{-- <i class="fas fa-phone-alt"></i> --}}
                         <input type="tel" name="phone" id="phone_slider" class="phone form-control" placeholder="Телефон" required>
                     </div>
 

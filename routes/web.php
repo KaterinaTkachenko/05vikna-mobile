@@ -80,9 +80,9 @@ Route::group([
 		Route::get('/', 'AdminController@index');
 		Route::post('articles/changeDisplay', 'ArticleController@changeDisplay');
 		Route::resource('/articles', 'ArticleController');
-		Route::post('leads/changeStatus', 'LeadController@changeStatus');
-		// Route::match(['get', 'post'],'leads/setPeriod', 'LeadController@setPeriod')->name('setPeriod');
+		Route::post('leads/changeStatus', 'LeadController@changeStatus');		
 		Route::resource('/leads', 'LeadController');
+		Route::resource('/works', 'WorkController');
 });
 
 Route::get('/clear', function() {

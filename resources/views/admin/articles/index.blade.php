@@ -26,9 +26,9 @@
 		<table class="table table-striped" id="article_table">
 			<thead>
 				<tr>
-					<th>@sortablelink('display','Вывод')</th>
-					<th>@sortablelink('name','Название')</th>
-					<th>@sortablelink('date','Дата')</th>
+					<th>@sortablelink('display', 'Вывод')</th>
+					<th>@sortablelink('name', 'Название')</th>
+					<th>@sortablelink('date', 'Дата')</th>
 					<th>Действия</th>
 				</tr>
 			</thead>

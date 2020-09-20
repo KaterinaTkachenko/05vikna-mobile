@@ -7,7 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ isset($title) ? $title : (isset($work->metaTitle) ? $work->metaTitle : (isset($article->metaTitle) ? $article->metaTitle : 'Пластиковые окна Rehau в Днепре и Запорожье')) }}</title>
+
+    <meta name="keywords" content="{{isset($keywords) ? $keywords : (isset($work->metaKeywords) ? $work->metaKeywords : (isset($article->metaKeywords) ? $article->metaKeywords : 'Пластиковые окна, окна пвх'))}}">   
+
+    <meta name="description" content = "{{isset($description) ? $description : (isset($work->metaDesc) ? $work->metaDesc : (isset($article->metaDesc) ? $article->metaDesc : 'Мобильные окна – изготовление, установка и продажа пластиковых окон REHAU в Днепре и Запорожье от производителя. Гарантия качества – 10 лет.'))}}" />
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
