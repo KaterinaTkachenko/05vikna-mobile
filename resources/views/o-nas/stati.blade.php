@@ -11,7 +11,7 @@
                     <a href="{{route('about')}}">О нас</a>
                 </li>
                 <li>
-                    <a href="{{route('stati')}}">Сертификаты</a>
+                    <a href="{{route('sertifikaty')}}">Сертификаты</a>
                 </li>
                 <li>
                     <a href="{{route('otzyvy')}}">Отзывы</a>
