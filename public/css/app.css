@@ -12339,6 +12339,25 @@ footer {
 }
 
 @media screen and (max-width: 575px) {
+  .plastOkna__adaptive {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plastOkna__adaptive__second {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+
+  .plastOkna__adaptive__first {
+    width: 40% !important;
+    margin-bottom: 20px;
+  }
+
+  .plastOkna__adaptive__second > div {
+    text-align: center !important;
+  }
+
   .sizer-down31 {
     left: 80px !important;
   }
@@ -13977,7 +13996,7 @@ i.fa-user,
 }
 
 #phone_slider {
-  background: #fff url(/images/forms-icon-phone.png?8d6e1b41cf713cca2a2a0ed6671c9a70) 20px 50%/18px auto no-repeat;
+  background: #fff url(/images/forms-icon-phone.png?d979b8ea0c13018df5f22cdf23bc4329) 20px 50%/18px auto no-repeat;
 }
 
 .b-color-lam {
@@ -14500,6 +14519,24 @@ i.fa-user,
   font-size: 28px;
   font-weight: bolder;
   margin-right: 10px;
+}
+
+.plastOkna__adaptive {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.plastOkna__adaptive__first {
+  width: 15%;
+}
+
+.plastOkna__adaptive__second {
+  width: 70%;
+  margin-left: 40px;
+}
+
+.plastOkna__adaptive__second > div {
+  margin-bottom: 10px;
 }
 
 .rehau60_catalog,

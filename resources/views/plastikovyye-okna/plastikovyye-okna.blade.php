@@ -7,6 +7,7 @@
                 <p>«Оконные технологии» — надежный поставщик профилей REHAU в Москве. Мы предлагаем оригинальную продукцию немецкого бренда для пластиковых дверей, окон, остекления лоджий, балконов. В ассортименте профили REHAU моделей Blitz-Design, Delight-Design, Brillant-Design, Euro, Geneo, Intelio, Grazio с гарантией качества 5 лет. Все материалы сертифицированы. Сотрудничая снами, вы получаете пластиковые окна REHAU от производителя. Замер проемов, изготовление конструкций, их монтаж выполняются за 5 дней.</p>
 
                 <h2 style="margin: 40px 0 30px">Сравнительная таблица REHAU</h2>
+                <div class="d-none d-lg-block">
                 <div class="plastOkna__table1">
                     <div style="align-self: center">
                         <img src="../../images/plastikovyye-okna/okna-rehau.jpg" alt="okna-rehau" style="width: 100%; height: auto">
@@ -34,7 +35,6 @@
                         <a href="{{route('geneo')}}" target="_blank" rel="noopener noreferrer">Synego</a>
                     </div>
                 </div>
-
                 <div class="plastOkna__table2">
                     <div style="text-align: left">Уровень тепла</div>
                     <div>0,65 <i class="far fa-sun"></i></div>
@@ -43,7 +43,6 @@
                     <div>1 <i class="far fa-sun"></i> <i class="far fa-sun"></i> <i class="far fa-sun"></i></div>
                     <div>1,16 <i class="far fa-sun"></i> <i class="far fa-sun"></i> <i class="far fa-sun"></i></div>
                 </div>
-
                 <div class="plastOkna__table2">
                     <div style="text-align: left">Снижение шума</div>
                     <div>0,65 <i class="fas fa-volume-up"></i></div>
@@ -76,7 +75,22 @@
                     <div>1</div>
                     <div>1,16 </div>
                 </div>
+                </div>
 
+                <div class="plastOkna__adaptive d-lg-none d-flex justify-content-between">
+                    <div class="plastOkna__adaptive__first">
+                        <a href="{{route('rehaueuro60')}}" target="_blank" >
+                            <img src="../../images/plastikovyye-okna/rehau-euro-60.png" alt="euro-60">
+                            <div class="text-center mt-3">Euro-60</div>
+                        </a>                     
+                    </div>
+                    <div class="plastOkna__adaptive__second">
+                        <div style="text-align: left">Уровень тепла 0,65 <i class="far fa-sun"></i></div>
+                        <div style="text-align: left">Количество камер 0,65 </div>
+                        <div style="text-align: left">Ширина профиля - 0,65мм </div>
+                        <div style="text-align: left">Ширина стеклопакета - 0,65мм </div>
+                    </div>
+                </div>
                 <hr style="background: #FF802C;">
             </div>
         </div>

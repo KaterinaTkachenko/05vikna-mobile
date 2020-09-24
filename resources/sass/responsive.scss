@@ -1042,6 +1042,25 @@
 }
 
 @media screen and (max-width: 575px) {
+    .plastOkna__adaptive{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plastOkna__adaptive__second {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+
+    .plastOkna__adaptive__first {
+        width: 40% !important; 
+        margin-bottom: 20px;       
+    }
+
+    .plastOkna__adaptive__second > div{
+        text-align: center !important;
+    }
+
     .sizer-down31 {
         left: 80px !important;
     }

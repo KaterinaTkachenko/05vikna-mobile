@@ -82,3 +82,21 @@
     font-weight: bolder;
     margin-right: 10px;
 }
+
+.plastOkna__adaptive{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.plastOkna__adaptive__first{
+    width: 15%;
+}
+
+.plastOkna__adaptive__second{
+    width: 70%;
+    margin-left: 40px;
+}
+
+.plastOkna__adaptive__second > div{
+    margin-bottom: 10px;
+}

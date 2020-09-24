@@ -33,33 +33,58 @@ class HomeController extends Controller
     
     public function about()
     {
-        return view('o-nas.about');
+        $title = "Компания «Мобильные окна» - официальный представитель REHAU в Днепре и Запорожье!";
+        $keywords = "мобильные окна";
+        $description = "Изготовление, установка и продажа пластиковых окон - Подробная информация о компании «Мобильные окна» в Днепре и Запорожье.";
+
+        return view('o-nas.about', compact('title', 'keywords', 'description'));
     }
 
     public function sertifikaty()
     {
-        return view('o-nas.sertifikaty');
+        $title = "Сертификаты на пластиковые окна и профили REHAU - Салон энергосберегающих окон РЕХАУ";
+        $keywords = "сертификаты REHAU";
+        $description = "Изготовление, установка и продажа пластиковых окон. Сертификаты на пластиковые окна и профили REHAU.";
+
+        return view('o-nas.sertifikaty', compact('title', 'keywords', 'description'));
     }
 
     public function stati()
     {
-        return view('o-nas.stati');
+        $title = "Пластиковые и деревянные окна - Блог Мобильные окна";
+        $keywords = "пластиковые окна, металлопластиковые окна, выбор, установка, стекла, фурнитура";
+        $description = "Все про пластиковые и деревянные окна: выбор, замер, расчет, установка, стекла, фурнитура и много другое в блоге Мобильных окон.";
+
+        return view('o-nas.stati', compact('title', 'keywords', 'description'));
     }
 
     public function otzyvy()
     {
-        return view('o-nas.otzyvy');
+        $title = "Отзывы о компании Мобильные окна - окна и двери REHAU";
+        $keywords = "отзывы REHAU";
+        $description = "Читайте отзывы клиентов о компании Мобильные окна. Изготовление, установка и продажа пластиковых окон и балконов в Днепре и Запорожье.";
+
+        return view('o-nas.otzyvy', compact('title', 'keywords', 'description'));
     }
 
     public function kalkulyatoronlayn()
     {
-        return view('nashi-tseny.kalkulyator-onlayn');
+        $title = "Оконный калькулятор REHAU — Рассчитать стоимость окон ПВХ";
+        $keywords = "калькулятор окон REHAU, цена на окна, стоимость окон";
+        $description = "Калькулятор пластиковых окон из профиля REHAU. Удобный онлайн расчет стоимости установки пластиковых окон в Днепре и Запорожье. Для расчета цены, укажите размеры, форму и тип профиля.";
+        
+        
+        return view('nashi-tseny.kalkulyator-onlayn', compact('title', 'keywords', 'description'));
     }
 
     public function nashiraboty()
     {
+        $title = "Выполненные работы по пластиковым окнам и балконам – Мобильные окна";
+        $keywords = "выполненные работы";
+        $description = "Изготовление, установка и продажа пластиковых окон. Наши работы.";
+
         $works = Work::get();
-        return view('nashi-raboty', compact('works'));
+        return view('nashi-raboty', compact('works', 'title', 'keywords', 'description'));
     }
 
     public function nashirabotyInfo($slug)
@@ -70,12 +95,20 @@ class HomeController extends Controller
 
     public function aktsii()
     {
-        return view('aktsii-i-skidki');
+        $title = "Акции на пластиковые окна - Купить окна РЕХАУ со скидкой до 50%";
+        $keywords = "акции окна";
+        $description = "Изготовление, установка и продажа пластиковых окон - Акции и скидки на окна и балконы от «Мобильные окна».";
+
+        return view('aktsii-i-skidki', compact('title', 'keywords', 'description'));
     }
 
     public function kontakty()
     {
-        return view('kontakty.kontakty');
+        $title = "Контакты «Мобильные окна» - Офисы продаж окон REHAU в Днепре и Запорожье";
+        $keywords = "мобильные окна";
+        $description = "Мобильные окна - изготовление, установка и продажа пластиковых окон REHAU в Днепре и Запорожье – Контакты.";
+
+        return view('kontakty.kontakty', compact('title', 'keywords', 'description'));
     }    
 
     public function plastikovyyeokna()
