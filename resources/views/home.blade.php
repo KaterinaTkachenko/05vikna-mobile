@@ -133,19 +133,19 @@
                 <img src="../images/plastikovoye-okno-rehau-odnostvorchatoye.jpg" alt="plastikovoye-okno-rehau-odnostvorchatoye">
                 <h4>Одностворчатое окно <br> 900×1400</h4>
                 <p>Rehau E60 <span class="orangeColor">1835</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
             <div>
                 <img src="../images/plastikovoye-okno-rehau-otkryvayutsya-dve-stvorki.jpg" alt="plastikovoye-okno-rehau-otkryvayutsya-dve-stvorki">
                 <h4>Одностворчатое окно <br> 900×1400</h4>
                 <p>Rehau E60 <span class="orangeColor">1835</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
             <div id="odnostvorchatoye">
                 <img src="../images/plastikovoye-okno-rehau-dve-stvorki-povorotno-otkidnyye.jpg" alt="plastikovoye-okno-rehau-dve-stvorki-povorotno-otkidnyye">
                 <h4>Одностворчатое окно <br> 900×1400</h4>
                 <p>Rehau E60 <span class="orangeColor">1835</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
         </div>
     </div>
@@ -159,19 +159,19 @@
                 <img src="../images/plastikovyy-balkonnyy-blok-rehau-glukhaya-stvorka-dver.jpg" alt="plastikovyy-balkonnyy-blok-rehau-glukhaya-stvorka-dver" style="height: 304px;">
                 <h4>Балконный блок <br> 800×1420 + 700×2160</h4>
                 <p>Rehau E60 <span class="orangeColor">3835</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
             <div>
                 <img src="../images/plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-i-glukhaya-stvorka-dver.jpg" alt="plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-i-glukhaya-stvorka-dver" style="width:100%">
                 <h4>Балконный блок <br> 1460×1420 + 700×2160</h4>
                 <p>Rehau E60 <span class="orangeColor">4135</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут." data-page="Главная страница">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам." data-page="Главная страница">Заказать</button>
             </div>
             <div>
                 <img src="../images/plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-stvorka-dver.jpg" alt="plastikovyy-balkonnyy-blok-rehau-povorotno-otkidnaya-stvorka-dver" style="height: 304px;">
                 <h4>Балконный блок <br> 600×1420 + 700×2160</h4>
                 <p>Rehau E60 <span class="orangeColor">3835</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконный блок" data-button="Заказать" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
         </div>
     </div>
@@ -185,19 +185,19 @@
                 <img src="../images/okno-na-balkon.jpg" alt="plastikovyy-balkonnyy-blok-rehau-glukhaya-stvorka-dver">
                 <h4>Балконное окно <br> 1700×1450</h4>
                 <p>Rehau E60 <span class="orangeColor">1935</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконное окно" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконное окно" data-button="Заказать" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
             <div>
                 <img src="../images/rama-na-balkon-rehau-3-m.jpg" alt="rama-na-balkon-rehau-3-m">
                 <h4>Балконная рама <br> 3000×1450</h4>
                 <p>Rehau E60 <span class="orangeColor">7835</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконную раму" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконную раму" data-button="Заказать" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
             <div>
                 <img src="../images/rama-na-balkon-rehau-6-m.jpg" alt="rama-na-balkon-rehau-6-m">
                 <h4>Балконная рама <br> 6000×1450</h4>
                 <p>Rehau E60 <span class="orangeColor">10550</span> грн.</p>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконную раму" data-button="Заказать" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать балконную раму" data-button="Заказать" data-msg="Мы перезвоним Вам.">Заказать</button>
             </div>
         </div>
     </div>

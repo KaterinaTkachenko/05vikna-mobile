@@ -86,7 +86,7 @@
                     <p>Дверная система REHAU 60 мм сочетает в себе отличные показатели по теплоизоляции, высокое качество профиля и элегантный дизайн. Система дверных профилей REHAU 70 мм сочетает в себе особую элегантность внешнего вида и высокие энергосберегающие показатели.</p>
                     <div class="d-flex vhod__dveri__flex11">
                         <p class="vhod__dveri__price">Цена: 2900 грн.</p>
-                        <button class="btn-main active" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать</button>
+                        <button class="btn-main active" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам.">Заказать</button>
                     </div>
                 </div>
             </div>

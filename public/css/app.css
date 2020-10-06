@@ -11013,7 +11013,8 @@ html {
   transition: opacity 0.2s 0s, visibility 0.2s 0s, right 0.2s 0s;
 }
 
-.upper .upper__btn {
+.upper .upper__btn,
+.upper .upper__btn__viber {
   width: 60px;
   cursor: pointer;
   opacity: 1;
@@ -11021,12 +11022,14 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.upper .upper__btn img {
+.upper .upper__btn img,
+.upper .upper__btn__viber img {
   max-width: 100%;
   vertical-align: top;
 }
 
-.upper .upper__btn:hover {
+.upper .upper__btn:hover,
+.upper .upper__btn__viber:hover {
   opacity: 0.8 !important;
 }
 

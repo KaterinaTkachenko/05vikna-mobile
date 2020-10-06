@@ -170,6 +170,7 @@ return [
         /*
          * Application Service Providers...
          */
+        Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,

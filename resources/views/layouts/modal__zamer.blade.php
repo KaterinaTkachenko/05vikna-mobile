@@ -14,7 +14,7 @@
                 </div>
             </div>
             <p class ="statusMsg text-center">Оставьте свой номер телефона. 
-                <br><span>Мы перезвоним Вам в течении 2 минут для уточнения информации по замеру.</span>
+                <br><span>Мы перезвоним Вам для уточнения информации по замеру.</span>
             </p>
             <div class="col-lg-12 form-group" style="position: relative">
                 <i class="fas fa-phone-alt"></i>

@@ -42,7 +42,7 @@
             </div>
             <div class="catalog__content">
                 <h2 class="catalogbox__name">REHAU GENEO</h2>
-                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам в течении 2 минут.">Заказать в 1 клик</button>
+                <button class="btn-main" data-toggle="modal" data-target="#modal-zamer" data-title="Заказать окно" data-msg="Мы перезвоним Вам.">Заказать в 1 клик</button>
                 <div class="catalogbox__calc">
                     <i class="fas fa-plus-circle"></i>
                     <a href="{{route('kalkulyator-onlayn')}}">

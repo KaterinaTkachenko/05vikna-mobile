@@ -39,15 +39,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body>    
     <div id="app">
         <main>            
             <div class="overlay"><div id="loader"></div></div>
             <div style="position: relative">
-                <div class="upper js-upper">
-                    <div class="upper__btn js-upper">
-                        <img src="../../images/upper.png" alt="">
+                <div class="upper">
+                    <div class="upper__btn__viber d-lg-none d-md-none mb-2" style="padding: 5px">
+                        <a href="viber://add?number=380503224144">
+                            <img src="../../images/viber-orange.png" alt="viber-orange.png">
+                        </a>                    
                     </div>
+                    <div class="upper__btn js-upper">
+                        <img src="../../images/upper.png" alt="upper.png">                        
+                    </div>
+                    
                 </div>   
             </div>  
             @yield('content')

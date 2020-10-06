@@ -1,14 +1,3 @@
-<?php 
-  function check_mobile_device() { 
-    $mobile_agent_array = array('ipad', 'iphone', 'android', 'pocket', 'palm', 'windows ce', 'windowsce', 'cellphone', 'opera mobi', 'ipod', 'small', 'sharp', 'sonyericsson', 'symbian', 'opera mini', 'nokia', 'htc_', 'samsung', 'motorola', 'smartphone', 'blackberry', 'playstation portable', 'tablet browser');
-    $agent = strtolower($_SERVER['HTTP_USER_AGENT']);    
-    foreach ($mobile_agent_array as $value) {    
-        if (strpos($agent, $value) !== false) return true;   
-    };     
-    return false; 
-  };
-?>
-
 <section id="header" class="bg-white shadow-sm">
     <div class="container" style="padding: 1rem 1.5rem">
         <div class="row justify-content-center text-center">
@@ -20,15 +9,10 @@
             <div class="col-6 col-lg-6 col-md-6 col-sm-6 align-self-center b-grey">                
                 <ul class="d-flex justify-content-center align-items-center header__icons">                    
                     <li>
-                        <? if(check_mobile_device()) :?>
-                            <a href="viber://add?number=380503224144">
-                                <img src="../../images/viber-grey.png" alt="viber-grey.png" class="header__icon header__viber">
-                            </a>
-                        <? else : ?>
-                            <a href="viber://chat?number=+380503224144">
-                                <img src="../../images/viber-grey.png" alt="viber-grey.png" class="header__icon header__viber">
-                            </a>
-                        <? endif; ?>
+                        <a href="viber://chat?number=+380503224144">
+                        {{-- <a href="viber://add?number=380503224144"> --}}
+                            <img src="../../images/viber-grey.png" alt="viber-grey.png" class="header__icon header__viber">
+                        </a>
                         <a href="tel:+380503224144">
                             <img src="../../images/phone-grey.png" alt="phone-grey.png" class="header__icon header__tel">
                         </a>

@@ -14,7 +14,7 @@
                 </div>
             </div>
             <p class ="statusMsg text-center">Оставьте свой номер телефона. 
-                <br>Мы перезвоним Вам в течении 2 минут.
+                <br>Мы перезвоним Вам.
             </p>
             <div class="col-lg-12 form-group" style="position: relative">
                 <i class="fas fa-phone-alt"></i>
