@@ -655,7 +655,10 @@
     }
 }
 
-@media (max-width: 768px) {     
+@media (max-width: 768px) {  
+    .nashi_raboty_item img, .stati__item img{
+        height: auto !important;
+    }   
     .home__form__zamer input, .home__form__zamer .btn-main {
         width: 100% !important;
         margin-right: 0!important;
@@ -938,6 +941,7 @@
     #home .aktsii__item .fa-phone-alt {
         left: 415px !important;
     }
+
 }
 
 @media screen and (max-width: 767px) { 

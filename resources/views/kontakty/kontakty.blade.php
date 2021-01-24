@@ -44,7 +44,7 @@
                         required>
                 </div>
                 <div class="form-input">
-                    <textarea name="comment" id="comment" rows="10" class="phone form-control"
+                    <textarea name="comment" id="comment" rows="10" class="form-control"
                         placeholder="Комментарий"></textarea>
                 </div>
                 <div class="form-input">

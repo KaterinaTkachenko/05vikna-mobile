@@ -22,7 +22,8 @@
             <div class="stati__flex1 d-flex flex-wrap justify-content-around">
                 @foreach($articles as $article)
                     <div class="stati__item shadowBox mb-5">
-                    <a href="{{route('articleInfo', $article->slug)}}"><img src="{{$article->img}}" alt="{{$article->name}}"></a>
+                    <a href="{{route('articleInfo', $article->slug)}}">
+                        <img src="{{$article->img}}" alt="{{$article->name}}"></a>
                         <div class="stati__item__desc p-4">
                             <a href="{{route('articleInfo', $article->slug)}}">
                                 <div class="stati__item__date">{{Carbon\Carbon::parse($article->date)->format('d.m.Y')}}</div>
